@@ -9,6 +9,9 @@
     background-size: contain;
     gap: 10px;
     font-family: var(--font-login-secundaria);
+    img{
+        width: 35%;
+    }
     button{
         text-transform: uppercase;
         color: white;
