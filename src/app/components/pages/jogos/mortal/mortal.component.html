@@ -1,6 +1,6 @@
 <section class="menu-mk" *ngIf="mostrarMenu">
     <button (click)="dicas= true; mostrarMenu=false;" class="animacao-text">dica do jogo</button>
-    <button class="animacao-text">macetes dos personagens</button>
+    <button (click)="maceites= true; mostrarMenu=false" class="animacao-text">macetes dos personagens</button>
 </section>
 <section class="dicas-jogo animacao-aparecer" *ngIf="dicas">
     <div class="conteiner">
@@ -32,6 +32,10 @@
     </div>
     <button (click)="dicas= false; mostrarMenu=true;">Voltar</button>
 </section>
-<section class="select-personagem">
-
+<section class="select-personagem" *ngIf="maceites">
+    <div class="personagens-ultimate">
+        <div class="personagens" *ngFor="let personagem of personagens">
+            <img [src]="personagem.portrait" alt="">
+        </div>
+    </div>
 </section>

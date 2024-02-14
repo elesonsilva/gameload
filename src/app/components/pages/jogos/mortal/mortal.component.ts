@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { Jogos, Personagem } from '../../../../models/jogos.models';
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-mortal',
   standalone: true,
@@ -12,8 +12,16 @@ import { CommonModule } from '@angular/common';
 export class MortalComponent {
   dicas:boolean = false;
   mostrarMenu: boolean = true;
+  maceites: boolean = false;
   
+  personagens: Personagem[]=[];
+
+  constructor(private httpClient:HttpClient){}
   
-  
+  ngOnInit(): void{
+    this.httpClient.get<{ Jogos: Jogos[]}>('assets/dados/dados.json').subscribe(data=>{
+      this.personagens = data.Jogos[1].personagens
+    });
+  }
 
 }
