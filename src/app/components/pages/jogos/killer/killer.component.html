@@ -1,0 +1,41 @@
+<section class="killer-home">
+    <div class="personagem" *ngIf="personagemSelecionado">
+        <div class="personagem-selecionado">
+            <img [src]="personagemSelecionado.animatePersonagem" alt="">
+            <strong>{{personagemSelecionado.nome}}</strong>
+        </div>
+        <div class="sobre-personagem">
+            <p>{{personagemSelecionado.historia}}</p>
+            <button (click)="verMacetes()">Ver macetes</button>
+        </div>
+    </div>
+
+    <swiper-container [slidesPerView]="slidesPorView" speed="500" navigation="true">
+        <swiper-slide *ngFor="let personagem of personagens" (click)="escolhePersonagem(personagem)">
+            <img [src]="personagem.portrait" alt="">
+        </swiper-slide>
+    </swiper-container>
+</section>
+
+<section *ngIf="mostrarMacetes" [class.macetesaberto]="mostrarMacetes" class="macetes-conteiner" [ngStyle]="{'background-image': personagemSelecionado ? 'linear-gradient(to top, #000000, transparent), url(' + personagemSelecionado.fundo + ')' : ''}">
+        <div class="maceites-area">
+            <div class="card-macete">
+                <h3>Golpes</h3>
+                <div *ngFor="let golpe of personagemSelecionado?.golpes" class="ceite">
+                    <strong>{{golpe.nomedogolpe}}</strong>: <p>{{golpe.comandos}}</p>
+                </div>
+            </div>
+            <div class="card-macete">
+                <h3>Fatalites</h3>
+                <div *ngFor="let fatal of personagemSelecionado?.fatalites" class="ceite">
+                    <strong>{{fatal.nomedofatalite}}</strong>: <p>{{fatal.comandos}}</p>
+                </div>
+            </div>
+            <div class="card-macete">
+                <h3>Combos</h3>
+                <div *ngFor="let combo of personagemSelecionado?.combos" class="ceite">
+                    <strong>{{combo.nomecombo}}</strong>: <p>{{combo.comandos}}</p>
+                </div>
+            </div>
+        </div> 
+</section>

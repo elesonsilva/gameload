@@ -1,0 +1,34 @@
+<section class="menu-mk" *ngIf="mostrarMenu">
+    <button (click)="dicas= true; mostrarMenu=false;" class="animacao-text">dica do jogo</button>
+    <button class="animacao-text">macetes dos personagens</button>
+</section>
+<section class="dicas-jogo animacao-aparecer" *ngIf="dicas">
+    <div class="conteiner">
+        <div class="ceite">
+            <strong>Menus Secretos:</strong>
+            <p>Sound Test: ←, ↓, Y, Y</p>
+            <p>Kooler Stuff: ↑, B, A, ←, ↓, Y</p>
+            <p>Kool Stuff Menu: →, ↑, B, B, A, ↓, ↑, B, ↓, ↑, B</p>
+            <p>Scott's Stuff: B, A, ↓, ↓, ←, A, X, B, A, B, Y</p> 
+        </div>
+        <div class="ceite">
+            <strong>Modo Torneio:</strong>
+            <p>Assim que aparecer a primeira tela, fique segurando L+R juntos e fique apertando Start sem soltar o R+L,
+               se feito corretamente, 
+               surgirá um tela que você poderá selecionar 8 lutadores para lutar sucessivamente.</p>
+            <strong>Seleção aleatória de personagem:</strong>
+            <p>Na tela de seleção de personagens, pressione ↑+Start.</p>
+            <strong>Jogar com Smoke Humano</strong>
+            <p>Selecione Cyber Smoke, depois mantenha pressionado, ao mesmo tempo, os seguintes botões até iniciar o round: ←,Y,X,L,R.</p>
+        </div>
+        <div class="ceite">
+            <strong>Mercy:</strong>
+            <p>Para fazer um Mercy, você deve perder 1 round para o seu adversário. No terceiro round quando aparecer "FINISH HIM" você deve segurar o botão "R", apertar "↓" duas vezes e depois soltar o botão "R". Isso vai ressuscitar seu adversário e dar a oportunidade dele levar mais um Hit antes de morrer. Para realizar o Mercy você deve estar na distância de uma rasteira do oponente.</p>
+            <strong>Babality:</strong>
+            <p>Para fazer um Babality, você não pode usar "bloqueio - (L)" no round da vitória.</p>
+            <strong>Friendship:</strong>
+            <p>Para fazer um Friendship, você não pode usar "bloqueio - (L)" no round da vitória.</p>
+        </div>
+    </div>
+    <button (click)="dicas= false; mostrarMenu=true;">Voltar</button>
+</section>

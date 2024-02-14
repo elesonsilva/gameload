@@ -1,0 +1,83 @@
+<div class="home-conteiner">
+    <section class="user-conteiner">
+        <div class="saudacao">
+            <h2>bem vindo ao</h2>
+            <h1>gameLoad</h1>
+            <h2>nome do usuario</h2>
+            <p>Seus Jogos Abertos Recentemente</p>
+        </div>
+        <div class="perfil-user">
+            <div class="info-user">
+                <img src="../../../../assets/home/user.png" alt="">
+                <div class="dados">
+                    <h3>nome do usuario</h3>
+                    <p>apelido</p>
+                </div>
+            </div>
+            <div class="ranqueamento">
+                <div class="info">
+                    <h2>score</h2>
+                    <span>5 estrelas</span>
+                </div>
+                <div class="info">
+                    <h2>Rank</h2>
+                    <span>Platina</span>
+                </div>
+                <div class="info">
+                    <h2>região</h2>
+                    <span>USA</span>
+                </div>
+                <div class="info">
+                    <h2>time</h2>
+                    <span>liquid fire</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div *ngFor="let jogo of jogos" class="card-ultimos-jogos" (click)="testeclick(jogo.Nome_do_jogo)">
+                <img [src]="jogo.imagem">
+                <h2>{{jogo.Nome_do_jogo}}</h2>
+            </div>
+        </div>
+    </section>
+    <section class="jogos-favoritos">
+        <div class="secao-jogos">
+            <div class="jogos" *ngFor="let jogofav of jogos">
+                <img [src]="jogofav.imagem">
+                <div class="desc-jogo">
+                    <strong>jogo</strong>
+                    <span>{{jogofav.Nome_do_jogo}}</span>
+                </div>
+                <div class="desc-jogo">
+                    <strong>Avaliação</strong>
+                    <span>{{jogofav.avaliacao}}</span>
+                </div>
+                <div class="desc-jogo">
+                    <strong>Dowload da ROM</strong>
+                    <a href="">Baixar</a>
+                </div>
+            </div>
+        </div>
+        <div class="descricao">
+            <h2>Seus jogos Favoritos</h2>
+            <p>Aqui estão os jogos que você marcou como favorito para achar mais rapidamente sem problemas.</p>
+        </div>
+    </section>
+    <section class="macetes-favoritos">
+        <div class="text-maceite">
+            <h2>suas maceites favoritas</h2>
+            <p>Aqui estão as Maceites que você mais usa para achar mais rapidamente, seu jogo favorito está
+                disponivel aqui tanbem</p>
+        </div>
+        <div class="secao-macete">
+            <div class="macete" *ngFor="let macetefav of jogos">
+                <img [src]="macetefav.imagem">
+                <span>{{macetefav.Nome_do_jogo}}</span>
+                <!--aqui em baixo no lugaer de macetes vai ser categoria-->
+                <span>{{macetefav.macetes}}</span>
+                <a href="">Ver Macetes</a>
+            </div>
+        </div>
+    </section>
+</div>

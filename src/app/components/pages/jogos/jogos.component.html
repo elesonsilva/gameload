@@ -1,0 +1,27 @@
+ 
+        <div class="jogos-conteiner" *ngIf="jogoSelecionado" [ngStyle]="{'background-image': 'linear-gradient(to top, #000000, transparent), url(' + imagemFundoSelecionada + ')'}">
+            <div class="jogo-content">
+                <h1>{{jogoSelecionado.Nome_do_jogo}}</h1>
+                <p>{{jogoSelecionado.descricao}}</p>
+                <div class="btn-group">
+                    <button >Baixar Rom</button>
+                    <button [routerLink]="jogoSelecionado.page">Ver macetes</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-todos-jogos">
+           <div class="card-pesquisa">
+                <h3>Todos os jogos</h3>
+                <div class="pesquisa">
+                    <input type="search" name="" id="">
+                </div>
+                
+           </div>
+           <swiper-container [slidesPerView]="slidesPorView" speed="500" navigation="true">
+                <swiper-slide *ngFor="let jogo of jogos" (click)="exibirDetalhes(jogo)">
+                    <img [src]="jogo.imagem" alt="">
+                    <strong>{{jogo.Nome_do_jogo}}</strong>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+   

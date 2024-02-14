@@ -1,0 +1,547 @@
+{
+    "Jogos":[
+        {
+            "Nome_do_jogo":"Killer Instinct",
+            "imagem":"assets/dados/Jogos/KillerInstic/capa.png",
+            "fundo":"assets/dados/Jogos/KillerInstic/fundo.jpg",
+            "descricao":"Killer Instinct é uma série de jogos de luta para arcades desenvolvido pela Rare, tendo primeiro lançamento em 1994. Ele teve uma versão para o Super Nintendo Entertainment System, lançada em 1995 e para o Game Boy. Apresentando cenários renderizados com uma sensação 3D sem precedentes e animações incríveis. O jogo possui um sistema de golpes combinados de combos e vários personagens distintos,  Conta com 11 personagens jogáveis (sendo um deles secreto) e uma fase para cada personagem.",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"4 estrelas",
+            "categoria":"luta",
+            "page":"killer",
+            "personagens":[
+                {
+                    "nome":"jago",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/jago.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/jago-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/jago-portrait.jpg",
+                    "historia":"Este misterioso monge guerreiro, é dotado de uma concentração e disciplina típico de uma região remota no Tibete. Guiado por poderoso espírito guia “Tiger Spirit” (Espírito do Tigre) em busca de seu destino, ele foi guiado até o torneio Killer Instinct com o objetivo de destruir o mal que existe por trás dele.",
+                    "golpes":[
+                        {"nomedogolpe":"Endokuken", "comandos":"↓,→ + Y"},
+                        {"nomedogolpe":"Wind Kick", "comandos":"→,↓,← +A"},
+                        {"nomedogolpe":"Sword Swipe", "comandos":"→,↓,← + X"},
+                        {"nomedogolpe":"Uppercut", "comandos":" →,↓,→ + Y"},
+                        {"nomedogolpe":"Combo breaker", "comandos":"→,↓,→ + Y"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" →,↓,←+ R"},
+                        {"nomedofatalite":"Humiliation", "comandos":" →,↓,← + B"},
+                        {"nomedofatalite":"ultimate", "comandos":" ←, ↓,→+X"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] ←, →, → + L"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":" ← ,← ,→, → + Y"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"→,↓,←,A,B,B,B, →,↓,←,X,B,A, →,↓,←,R."}
+                        
+                    ]
+                        
+                },
+                {
+                    "nome":"glacius",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/glacius.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/glacius-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/glacius-portrait.jpg",
+                    "historia":"é um ser extraterrestre de um planeta muito distante. Por um motivo desconhecido sua nave espacial caiu na Terra, a Ultratech o capturou, tentando provar que os aliens são criaturas inferiores ela o forçou a lutar por sua vida no torneio.",
+                    "golpes":[
+                        {"nomedogolpe":"Shockwave Fireball", "comandos":"↓,→ + Y"},
+                        {"nomedogolpe":"Teleport Uppercut", "comandos":"↓,→ + A"},
+                        {"nomedogolpe":"Shoulder Charge", "comandos":"(←) → + Y"},
+                        {"nomedogolpe":"Fist Blade", "comandos":" →,↓,← + L"},
+                        {"nomedogolpe":"Quicky Punches", "comandos":" L repetidamente"},
+                        {"nomedogolpe":"Combo breaker", "comandos":"←, → + Y"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" ←, → + X"},
+                        {"nomedofatalite":"Humiliation", "comandos":"→, →, ← + R"},
+                        {"nomedofatalite":"ultimate", "comandos":"→,↓,← + L"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] ←, ↓,→ + Y"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":" ←, ← ,← + A"},
+                        {"nomedofatalite":"No Mercy 3", "comandos":"[distancia de um pulo] →,↓,←+B"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":" (←),→,Y,Y,Y, ←Y,Y,Y, →,X, ←,X."},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":"(←),→,Y,Y,Y, ←Y,Y,Y, →,X,X,X."}
+                        
+                    ]
+                },
+                {
+                    "nome":"fulgore",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/fulgore.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/fulgore-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/fulgore-portrait.jpg",
+                    "historia":"a empresa Ultratech, criou o Fulgore como um protótipo cibernético soldado! Para se assegurar do potencial de Fulgore a empresa Ultratech o introduziu no torneio Killer Istinct como uma forma de teste final para assegurar suas capacidades de combate. Se bem sucedido, iniciará uma produção em massa.",
+                    "golpes":[
+                        { "nomedogolpe":"Laser Storm", "comandos":"↓,→ +Y"},
+                        { "nomedogolpe":"Laser Storm x2", "comandos":"←, ←, ↓,→ +L"},
+                        { "nomedogolpe":"Laser Storm x3", "comandos":"→, ←, ←, ↓,→ + L"},
+                        { "nomedogolpe":"Teleport Behind", "comandos":"←,↓, ←+A"},
+                        { "nomedogolpe":"Teleport In Front", "comandos":"←,↓,←+Y"},
+                        { "nomedogolpe":"Plasma Slice", "comandos":"→,↓,→ +Y"},
+                        { "nomedogolpe":"Eye Spark", "comandos":"→,↓,← + A"},
+                        { "nomedogolpe":"Blade Dash:", "comandos":"(←),→ + Y"},
+                        { "nomedogolpe":"Projectile Reflect", "comandos":"↓,← + X"},
+                        { "nomedogolpe":"Combo Breaker:", "comandos":" →,↓,→ +Y"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":"→,↓,→ + L"},
+                        {"nomedofatalite":"Humiliation", "comandos":"←,↓,→ + B"},
+                        {"nomedofatalite":"ultimate", "comandos":"→,↓, ←+Y"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] →,↓,← + X"},
+                        {"nomedofatalite":"No Mercy 2:", "comandos":"[distância de um pulo] ←, ↓,→ + A"}
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":" (←),→+A,A, →B,B, →,↓,←+A,A."},
+                        {"nomecombo":"FINAIS", "comandos":"→,B,B, →+X(shourikehn com X) o mesmo com Y (13 hits)"},
+                        {"nomecombo":"FINAIS", "comandos":"(←),→+B (o adversario é jogado p/ o alto e cai na magia tripla(15 hits)"},
+                        {"nomecombo":"FINAIS", "comandos":"←,→,B,B(shourikehn p/ ← )+L (13 hits)"},
+                        {"nomecombo":"MAGIA TRIPLA", "comandos":"→,←,←,←,←,→ B(←,↓,→)+L"},
+                        {"nomecombo":"MAGIA DUPLA", "comandos":"←,←,←,↓,→+L"},
+                        {"nomecombo":"COMBO CURTO", "comandos":"voadora com A,A,shourikehn com X."},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":" ←,→,A, ←,↓,→,A, →,↓,←,L."}
+                    ]
+                },
+                {
+                    "nome":"eyedoll",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/eyedoll.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/eyedoll-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/eyedoll-portrait.png",
+                    "historia":"Pouco se sabe sobre a história real desta criatura, apenas que ja foi humano e após ingressar na Ultratech passou por experimentos, desde então tem esta forma e é uma grande arma da Ultratech",
+                    "golpes":[
+                        {"nomedogolpe":"Fireball:", "comandos":"↓,→ + Y"},
+                        {"nomedogolpe":"Club Swing", "comandos":"←,→ + X"},
+                        {"nomedogolpe":"Bull Charge", "comandos":"←,→ + L"},
+                        {"nomedogolpe":"Ground Stomp", "comandos":"← + Y"},
+                        {"nomedogolpe":"Jumping Club", "comandos":" ← ,→ + A"},
+                        {"nomedogolpe":"Club Stab", "comandos":" ← + X"},
+                        {"nomedogolpe":"Combo breaker", "comandos":"←,→ + X"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Não possui", "comandos":"não possui"}                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"ULTRA DE 80 HITS", "comandos":"Na primeira ou na segunda vida do oponente cheia, faça: (←) →,L,B, ←,→ + X(no canto) depois (←)até encostar na tela,quando encostar faça ←,→ + L,vc vai acertar o oponenete caindo, aí faça o mais rápido possível ←,→ + L vai errar o oponente ←,→ + L vai acertar , vai fazendo isso até dar 80 hits. É muito difícil pois vc faz ←,→ + L ,2 vezes p/ acertar 1 hit."}
+                        
+                    ]
+                },
+                {
+                    "nome":"combo",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/combo.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/combo-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/combo-portrait.jpg",
+                    "historia":" Por um longo tempo campeão mundial do boxe, cercado por fama e fortuna. Até que um detector de metais em um aeroporto desvendou seu maior segredo, seus implantes de titânio nos braços, foi então destituído de seu título, humilhado, então movido por seu orgulho decide entrar no torneio Killer Instinct para recuperar sua fama e fortuna.",
+                    "golpes":[
+                        {"nomedogolpe":"Dashing Punch", "comandos":"(←), → + X"},
+                        {"nomedogolpe":"Rolling Punch", "comandos":"(←), → + Y"},
+                        {"nomedogolpe":"Backfist Punch", "comandos":"(←) ,→ + L"},
+                        {"nomedogolpe":"Backfist Punch 2", "comandos":" (→), ← + L"},
+                        {"nomedogolpe":"Flying Knee", "comandos":"(←), → + A"},
+                        {"nomedogolpe":"Knee Knockout", "comandos":"(←), → + B"},
+                        {"nomedogolpe":"Quick Knee", "comandos":"(←), → + R"},
+                        {"nomedogolpe":"Windup Punch:", "comandos":"(X), X"},
+                        {"nomedogolpe":"Punching Bag", "comandos":" L repetidamente"},
+                        {"nomedogolpe":"Combo Breaker", "comandos":"←, → + A"}
+                        
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" →, ← + X"},
+                        {"nomedofatalite":"Humiliation", "comandos":"↓,↓,↓ + L"},
+                        {"nomedofatalite":"ultimate", "comandos":" →,↓,←+B"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] ←, ←, →, → + Y"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":" [de perto] ← ,↓,→ + A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"←, →,Y,Y,Y, ←,X,X,X."}
+                        
+                        
+                    ]
+                },
+                {
+                    "nome":"cinder",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/cinder.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/cinder-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/cinder-portrait.jpg",
+                    "historia":"trata-se de um criminoso sem muitas escolhas, após sua condenação, concordou em participar de testes químicos da Ultratech por uma redução penal. O experimento mal sucedido o transformou em um ser de chamas vivas, a Ultratech barganhou sua liberdade integral em troca de derrotar Glacius no torneio Killer Instinct.",
+                    "golpes":[
+                        {"nomedogolpe":"Trail Blazer", "comandos":"→,→ + Y"},
+                        {"nomedogolpe":"Inferno", "comandos":"→, → + X"},
+                        {"nomedogolpe":"Fire Flash", "comandos":"→,↓,→ + A ou X"},
+                        {"nomedogolpe":"Quick Heat", "comandos":"←, ← + L"},
+                        {"nomedogolpe":"Projectile Immunity", "comandos":"→,↓,← + Y"},
+                        {"nomedogolpe":"Invisible", "comandos":" →,↓,← + X"},
+                        {"nomedogolpe":"Combo Breaker", "comandos":"→,↓,→ + A"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":"→, → + X"},
+                        {"nomedofatalite":"Humiliation", "comandos":"←, ←, ← +A"},
+                        {"nomedofatalite":"ultimate", "comandos":"→,↓,←+B"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"←, ← ,← + Y"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":"[Distância de um pulo] ←, ↓,→ + R"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":" →, →+Y,L, →, →+L,L."},
+                        {"nomecombo":"FINALIZAÇÕES","comandos":"→, →+Y(14 hits)"},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":"←,→+Y, ←,L,→+X"}
+                        
+                    ]
+                },
+                {
+                    "nome":"thunder",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/thunder.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/thunder-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/thunder-portrait.jpg",
+                    "historia":"após o desaparecimento de seu irmão Eagle, Thunder atual chefe indígena de uma tribo norte-americana entra no torneio Killer Instinct em busca de pistas do desaparecimento de seu irmão.",
+                    "golpes":[
+                        {"nomedogolpe":"Phoenix", "comandos":" ↓,→ + A"},
+                        {"nomedogolpe":"Triple Axe Smack", "comandos":"(←), → + Y"},
+                        {"nomedogolpe":"Triple Axe Smack 2", "comandos":"(→), ← + Y"},
+                        {"nomedogolpe":"Sammamish", "comandos":"→,↓,← + Y"},
+                        {"nomedogolpe":"Tomahawk", "comandos":"[no ar] →,↓,← + X"},
+                        {"nomedogolpe":"Combo Breaker", "comandos":"→,↓,← + Y"}
+                        
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" ←, → + L"},
+                        {"nomedofatalite":"Humiliation", "comandos":" ↓,↓,↓,→+ R"},
+                        {"nomedofatalite":"ultimate", "comandos":"→,↓,←+X"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":" [distância de um pulo] ← ,↓,→ + X"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":" [de perto] →,↓,← + A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"(←), → +X, Y, →,←,Y,A, →,↓,X,depois de um tempo →+ R,se tiver dado break vc acertará 3 vezes."},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":"(←), →,X,X,X, ←,A,A,A, →,L,L,L"}
+                        
+                        
+                    ]
+                },
+                {
+                    "nome":"spinal",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/spinal.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/spinal-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/spinal-portrait.jpg",
+                    "historia":"a origem de Spinal é desconhecida e a Ultratech guarda este segredo a sete chaves. Com sua tecnologia avançada conseguiu reviver este guerreiro de tempos imemoriais e Spinal foi convencido a cumprir o objetivo que a Ultratec impôs para ele, que é acabar com todos os lutadores do torneio Killer Instinct.",
+                    "golpes":[
+                        {"nomedogolpe":"Shield Dash", "comandos":"→,→ + Y"},
+                        {"nomedogolpe":"Flash Sword", "comandos":" (←) → + Y"},
+                        {"nomedogolpe":"Flash Sword 2:", "comandos":"(→) ← + Y"},
+                        {"nomedogolpe":"Teleport In Front", "comandos":" ↓,↓ + Y"},
+                        {"nomedogolpe":"Teleport Back", "comandos":"↓,↓ + A"},
+                        {"nomedogolpe":"Absorb Projectiles", "comandos":"← + L"},
+                        {"nomedogolpe":"Flaming Skull", "comandos":"↓,→ +Y "},
+                        {"nomedogolpe":"Scorching Skull", "comandos":"← ,↓,→ + X "},
+                        {"nomedogolpe":"Slide Kick", "comandos":" ↓ + A"},
+                        {"nomedogolpe":"Combo Breaker", "comandos":" → → + Y"}
+                        
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":"↓,→ + X"},
+                        {"nomedofatalite":"Humiliation", "comandos":" ← ,↓,→ + A"},
+                        {"nomedofatalite":"ultimate", "comandos":" →,↓,←+L"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] ←, ←,→ + R"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":"←, ←,← + B"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"→ →+X,Y, ←,↓,→+X (24 OU 25 hits)."},
+                        {"nomecombo":"OUTRO COMBO","comandos":"→ → +X, Y, →, →,L."},
+                        {"nomecombo":"OUTRO COMBO", "comandos":"→ → +X, Y, ↓,↓,B"},
+                        {"nomecombo":"OUTRO COMBO", "comandos":"→ → +L,X, →, →,Y"},
+                        {"nomecombo":"OUTRO COMBO", "comandos":"→ → +L,X, ↓,↓,B."},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":" → →+Y, → →+Y, ↓,↓,B."},
+                        {"nomecombo":"COMBO ADICIONAL", "comandos":" ←,→,Y, ←,Y, →,↓,←,X, ←,↓,→."}
+                        
+                    ]
+                },
+                {
+                    "nome":"sabrewulf",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/sabrewulf.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/sabrewulf-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/sabrewulf-portrait.jpg",
+                    "historia":"Em busca de uma maneira de se libertar da maldição que o transforma em lobisomem na presença da lua Sabrewulf procura a Ultratech e engaja no torneio Killer Stinct em busca de sua cura.",
+                    "golpes":[
+                        {"nomedogolpe":"Flaming Bat:", "comandos":" ↓,← + Y"},
+                        {"nomedogolpe":"Spinning Claw", "comandos":"(←), → + Y"},
+                        {"nomedogolpe":"Spinning Claw 2:", "comandos":"(→), ← + Y"},
+                        {"nomedogolpe":"Jumping Slash", "comandos":"(←), → + A"},
+                        {"nomedogolpe":"Stampede Slash", "comandos":"(←), → + B"},
+                        {"nomedogolpe":"Rolling Slash", "comandos":"(←), → + R"},
+                        {"nomedogolpe":"Howl", "comandos":" →,↓,←, + A"},
+                        {"nomedogolpe":"Combo Breake", "comandos":"← ,→ + A"}
+                        
+                        
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" →,← + R"},
+                        {"nomedofatalite":"Humiliation", "comandos":"→,→+ L"},
+                        {"nomedofatalite":"ultimate", "comandos":" ←,↓,→+X"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"[de perto] ←, ←, ← + B"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":" [de perto] ←, ←,→ + Y"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"(←), →+Y,Y, (→), ←,+Y,Y."},
+                        {"nomecombo":"FINALIZAÇÕES", "comandos":"(←), →+B ou R (14 hits,16 com uivo)ou A (13 hits, 15 com uivo)"},
+                        {"nomecombo":"COM ULTRA COMBO", "comandos":"(→), ←+R(28 hits,30 com uivo) UIVO: →,↓,← + A. o melhor modo de fazer o uivo é depois de derrubar o adversário com o upper (←), →+B."}
+                    ]
+                },
+                {
+                    "nome":"riptor",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/riptor.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/riptor-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/riptor-portrait.jpg",
+                    "historia":" foi criado um projeto de manipulação de DNA pela Ultratech, após a mistura de genes humanos e de répteis Riptor foi criado, formando uma criatura lutadora com instinto animal e inteligência humana.",
+                    "golpes":[
+                        {"nomedogolpe":"Flaming Spit", "comandos":" ↓,← + Y"},
+                        {"nomedogolpe":"Air Flaming Spit", "comandos":"[NO ALTO] ↓,← + Y"},
+                        {"nomedogolpe":"Flame Breath", "comandos":"→,↓,← + X"},
+                        {"nomedogolpe":"Body Whip", "comandos":"→,↓,← + A"},
+                        {"nomedogolpe":"Claw Swipe", "comandos":"→,↓,← + L"},
+                        {"nomedogolpe":"Jumping Claw", "comandos":"(←), → + A"},
+                        {"nomedogolpe":"Jumping Claw 2", "comandos":" (→), ← + B/R"},
+                        {"nomedogolpe":"Head Charge", "comandos":"(←), → + Y"},
+                        {"nomedogolpe":"Combo Breake", "comandos":"← ,→ + A"}
+                        
+                        
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" ←, → + R"},
+                        {"nomedofatalite":"Humiliation", "comandos":" ↓,↓,→, → + X"},
+                        {"nomedofatalite":"ultimate", "comandos":"←, ↓,→+L"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"← ,↓,→ + Y"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":"← ,← ,← + B"},
+                        {"nomedofatalite":"No Mercy 3", "comandos":"[de perto] →,→,→,←+A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"INICIO", "comandos":"(←), →,L,X, ←, → + R."}
+                    ]
+                },
+                {
+                    "nome":"orchid",
+                    "fundo":"assets/dados/Jogos/KillerInstic/fundoPerson/orchid.png",
+                    "animatePersonagem":"assets/dados/Jogos/KillerInstic/animate/orchid-animate.gif",
+                    "portrait":"assets/dados/Jogos/KillerInstic/Portrait/orchid-portrait.jpg",
+                    "historia":"é uma espiã, que investiga os desaparecimentos misteriosos por trás do torneio Killer Instinct, além das denúncias de corrupção sobre a Ultratech. Seu passado é um mistério assim como sua verdadeira identidade e habilidades.",
+                    "golpes":[
+                        {"nomedogolpe":"Lasaken", "comandos":" ↓,→ + Y"},
+                        {"nomedogolpe":"Helicopter Kick", "comandos":"(←) → + A"},
+                        {"nomedogolpe":"Fire Cat", "comandos":"(←) → + Y"},
+                        {"nomedogolpe":"Helicopter Blade", "comandos":" →,↓,← + X"},
+                        {"nomedogolpe":"Dash Punch", "comandos":" →,↓,← + Y/L"},
+                        {"nomedogolpe":"Flip Kick", "comandos":"← + A"},
+                        {"nomedogolpe":"Combo Breake", "comandos":"←, → + A"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Ultra", "comandos":" ←, → + Y"},
+                        {"nomedofatalite":"Humiliation", "comandos":"→,↓,← + X"},
+                        {"nomedofatalite":"ultimate", "comandos":"→,↓,←+B"},
+                        {"nomedofatalite":"No Mercy 1", "comandos":"↓,→,← + L [aperte R para pisar no sapo]"},
+                        {"nomedofatalite":"No Mercy 2", "comandos":"←, ← ,→, → + L"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"48 hitts de ultra", "comandos":"(←) → + A,L, (←) → + A,L, (←) → + A,L, (←) → + A,L, (→), ←,B,L e o ultra ← ,→,Y, quando o oponente estiver caindo aperte: ↓,→,L. (se tiver dado braker [<>A]vc soltará 3 poderes) Esse deve ser pego 1 chute dos 3."}
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "Nome_do_jogo":"Mortal Konbat Ultimate 3",
+            "imagem":"assets/dados/Jogos/MortalKonbatUltimate/maxresdefault.jpg",
+            "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundo.jpg",
+            "descricao":"Ultimate Mortal Kombat 3 possui, no total, 27 personagens. Isso é muito mais do que o Mortal Kombat 2 tinha (12 personagens), o que significa mais golpes e fatalities! Por isso, nós do Critical Hits decidimos fazer esse guia que vai ensinar você a fazer todos os golpes especiais e fatalities de Ultimate Mortal Kombat 3 para que você faça bonito na sua próxima partida. Então vamos logo ao que interessa!",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"3 estrelas",
+            "categoria":"luta",
+            "page":"mortal",
+            "personagens":[
+                {
+                    "nome":"rain",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/rain.jpg"
+                },
+                {
+                    "nome":"riptile",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/riptile.jpg"
+                },
+                {
+                    "nome":"striker",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/striker.jpg"
+
+                },
+                {
+                    "nome":"jax",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/jax.jpg"
+
+                },
+                {
+                    "nome":"nithwolf",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/nithwolf.jpg"
+
+                },
+                {
+                    "nome":"jade",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/jade.jpg"
+
+                },
+                {
+                    "nome":"noobsaibot",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/noobsaibot.jpg"
+
+                },
+                {
+                    "nome":"sonia",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/sonia.jpg"
+
+                },
+                {
+                    "nome":"cano",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/cano.jpg"
+
+                },
+                {
+                    "nome":"milena",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/milena.jpg"
+
+                },
+                {
+                    "nome":"subzero",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/subzero.jpg"
+
+                },
+                {
+                    "nome":"subziro",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/subziro.jpg"
+
+                },
+                {
+                    "nome":"kunglao",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kunglao.jpg"
+
+                },
+                {
+                    "nome":"secktor",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/secktor.jpg"
+
+                },
+                {
+                    "nome":"kitana",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kitana.jpg"
+
+                },
+                {
+                    "nome":"ermac",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/ermac.jpg"
+
+                },
+                {
+                    "nome":"scorpion",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/scorpion.jpg"
+
+                },
+                {
+                    "nome":"cyrax",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/cyrax.jpg"
+
+                },
+                {
+                    "nome":"kabal",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kabal.jpg"
+
+                },
+                {
+                    "nome":"sindel",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/sindel.jpg"
+
+                },
+                {
+                    "nome":"esmok",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/esmok.jpg"
+
+                },
+                {
+                    "nome":"liukang",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/liukang.jpg"
+
+                },
+                {
+                    "nome":"shansung",
+                    "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/shansung.jpg"
+
+                }
+            ]
+        },
+        {
+            "Nome_do_jogo":"Street Fighter II Turbo",
+            "imagem":"assets/dados/Jogos/StreetFighterIITurbo/Turbo.jpg",
+            "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundo.jpg",
+            "descricao":"Street Fighter II revolucionou o género dos jogos de luta nos anos 90.Considerado um dos melhores jogos de todos os tempos, Street Fighter™ II Turbo: Hyper Fighting foi o terceiro lançamento da série Street Fighter II original.Apresentando os oito guerreiros mundiais originais, incluindo Ryu, Chun-Li e Guile, mas também as personagens boss jogáveis Balrog, Vega, Sagat e M. Bison, Street Fighter™ II Turbo: Hyper Fighting oferece uma velocidade de jogo melhorada e um maior equilíbrio entre as personagens.",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"2 estrelas",
+            "categoria":"luta",
+            "page":"street"
+        },
+        {
+            "Nome_do_jogo":"Super Mario World",
+            "imagem":"assets/dados/Jogos/SuperMarioWorld/Super-Mario-World.jpg",
+            "fundo":"assets/dados/Jogos/SuperMarioWorld/fundo.jpg",
+            "descricao":"A primeira aventura de Mario e Luigi para a Super NES levou-os a um local com novas personagens, novas habilidades e muito mais - tornando-se num dos jogos mais vendidos de sempre.Em Super Mario World os irmãos canalizadores viajam até Dinosaur Land, onde conhecem o seu novo e adorável companheiro Yoshi e onde lutam contra Bowser e os seus subordinados por entre dezenas de níveis complexos e repletos de segredos.Além de poderes montar Yoshi e engolir os teus inimigos, podes também planar pelos céus com o auxílio da nova Cape Feather e, assim, voar por um mundo de aventuras!",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"5 estrelas",
+            "categoria":"aventura",
+            "page":"marioworld"
+        },
+        {
+            "Nome_do_jogo":"Donkey Kong Country",
+            "imagem":"assets/dados/Jogos/DonkeyKongCountry/Donkey_Kong_Country_capa.png",
+            "fundo":"assets/dados/Jogos/DonkeyKongCountry/fundo.jpg",
+            "descricao":"Em 1994, nos primórdios das consolas de 32 bits, um jogo arrasou a concorrência com os seus gráficos 3D pré-renderizados, animação semelhante a desenhos animados e música atmosférica. A personagem Donkey Kong ganhou nova vida com Donkey Kong Country, um jogo que também deu a conhecer aos jogadores de todo o mundo Diddy Kong, Cranky Kong e os mauzões Kremlings.Junta-te a DK e a Diddy numa aventura para recuperar as suas bananas roubadas. Atravessa mais de 30 níveis desafiantes, Donkey Kong Country não é decididamente um jogo para bananas!",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"5 estrelas",
+            "categoria":"aventura",
+            "page":"dkcountry"
+        },
+        {
+            "Nome_do_jogo":"Donkey Kong Country 2: Diddy's Kong Quest",
+            "imagem":"assets/dados/Jogos/DonkeyKongCountry2/donkei2.jpg",
+            "fundo":"assets/dados/Jogos/DonkeyKongCountry2/fundodock.jpg",
+            "descricao":"Essa aventura deixa Donkey Kong de lado e traz Dixie Kong como parceira de Diddy  — e por um pouco quase não teve Cranky Kong como terceiro personagem controlável — para uma aventura com o intuito de resgatar Donkey Kong das garras de Kapitão K. Rool. Para isso, os macacos contam com suas próprias habilidades e a ajuda de alguns animais, entre eles a aranha Squitter e o papagaio Quawks.",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"5 estrelas",
+            "categoria":"aventura",
+            "page":"dk2"
+        },
+        {
+            "Nome_do_jogo":"Super Mario Kart",
+            "imagem":"assets/dados/Jogos/SuperMarioKart/Super_Mario_Kart_front.jpg",
+            "fundo":"assets/dados/Jogos/SuperMarioKart/fundo.png",
+            "descricao":"Super Mario Kart foi o primeiro de sua série de títulos do spin-off focado em corrida. No game os jogadores controlavam os personagens da série Super Mario, mas em uma disputa de corrida de karts. O título ficou famoso não só pela diversão, mas também pela forma de jogo em multiplayer, que permitia até quatro participantes simultâneos caso o jogador tivesse um adaptador para ligar os controles.",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"5 estrelas",
+            "categoria":"corrida",
+            "page":"mariokart"
+        },
+        {
+            "Nome_do_jogo":"Contra III: The Alien Wars",
+            "imagem":"assets/dados/Jogos/ContraTheAlienWars/contra.png",
+            "fundo":"assets/dados/Jogos/ContraTheAlienWars/fundo.jpg",
+            "descricao":"Em termos de dificuldade, Contra III: The Alien Wars ficou conhecido como um dos mais hardcore da Konami. Muitos jogadores passaram horas ou dias inteiros para zerar o jogo, e muitos não conseguiram isso. Os Bosses eram gigantes, e os cenários em movimento tornavam todas as batalhas ainda mais complicadas.",
+            "arquivo_rom":"ainda não tem",
+            "macetes":"falta colocar",
+            "avaliacao":"5 estrelas",
+            "categoria":"tiro",
+            "page":"contra"
+        }
+    ]
+}

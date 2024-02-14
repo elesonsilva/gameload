@@ -1,0 +1,170 @@
+
+
+.back-conteiner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, #0b021bb4, #0b021b9c),url(../../../assets/tela-de-login/fundologin.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-login-primaria);
+    .txt-principal{
+        width: 55%;
+        color: white;
+        margin-left: 15%;
+        h1{
+            width: 80%;
+            line-height: 0.9em;
+            font-size: 4.5em;
+            font-weight: 900;
+        }
+        p{
+            font-size: 0.9em;
+           
+        }
+    }
+    .form-login{
+        width: 45%;
+        height: 90vh;
+        margin-right: 10%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        background-color: #0b021bd3;
+
+        .logo-login{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-top: 5%;
+            img{
+                width: 150px;
+            }
+            h2{
+             font-size: 1.8em;
+             margin-bottom: 0.3em;   
+            }
+            p{
+                font-size: 0.9em;
+                margin-bottom: 0.3em;
+            }
+        }
+        .btn-login{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 5%;
+            gap: 1em;
+
+            .btn{
+                position: relative;
+                width: 100%;
+                text-decoration: none;
+                border: 1px solid var(--cor-quaternaria);
+                padding: 10px 30px;
+                border-radius: 5px;
+                color: var(--cor-quaternaria);
+                font-size: 0.9em;
+                transition: 0.4s;
+               
+            }
+            .bi{
+                position: absolute;
+                left: -30%;
+             }
+            
+            .btn:hover{
+                color: var(--cor-quinaria);
+                border: 1px solid var(--cor-quinaria);
+                box-shadow: 0 0 10px var(--cor-quinaria), 0 0 20px var(--cor-quinaria), 0 0 40px var(--cor-quinaria);
+            }
+            
+            p{
+                font-size: 0.9em;
+            }
+            .btn-inscrevase{
+                color: #6b6a6a;
+                text-decoration: none;
+                margin-left: 0.3em;
+                transition: 0.4s;
+                cursor: pointer;
+            }
+            .btn-inscrevase:hover{
+                color: var(--cor-quinaria);
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .back-conteiner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to top, #0b021bc4, #0b021bb7),url(../../../assets/tela-de-login/tela-login-mobile.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .txt-principal{
+            width: 100%;
+            height: 20vh;
+            margin-top: 10%;
+            margin-left: 0;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                width: 80%;
+                line-height: 0.9em;
+                font-size: 2.5em;
+                font-weight: 900;
+            }
+            p{
+                font-size: 0.9em;
+                width: 80%;
+                margin-top: 0.5em;
+            }
+        }
+        .form-login{
+            width: 100%;
+            height: 60vh;
+            border-radius: 10px;
+            margin-left: 10%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            background-color: transparent;
+            .logo-login{
+                margin-top: 0;
+                h2{
+                    font-size: 1.2em;
+                    margin-bottom: 0.3em;   
+                   }
+                   p{
+                       font-size: 0.9em;
+                       margin-bottom: 0.3em;
+                   }
+            }
+            .btn-login{
+                width: 65%;
+                .bi{
+                    left: -35%;
+                }
+                .btn-inscrevase{
+                    color: var(--cor-quinaria);
+                }
+            }
+
+            
+        }
+    }
+}

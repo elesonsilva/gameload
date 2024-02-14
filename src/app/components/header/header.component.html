@@ -1,0 +1,22 @@
+<header [class.menuAberto]="menu">
+    <img src="../../../assets/header/logopng.png" alt="">
+    <nav>
+        <a routerLink="pages/home">home</a>
+        <a href="">categorias</a>
+        <a routerLink="pages/jogos">jogos</a>
+        <a href="">perfil</a>
+        <a href="">comunidade</a>
+    </nav>
+    <div class="user">
+        <h3>Nome Usuario</h3>
+        <div class="imagem-user">
+            <img src="../../../assets/header/user.png" alt="">
+        </div>
+        <div class="id-user">
+            <span></span><p>online</p>
+        </div>
+    </div>
+</header>
+<div class="menu" (click)="abrirmenu()">
+    <i class="material-icons">{{ menu ? "close" : "menu" }}</i>
+</div>

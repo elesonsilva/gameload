@@ -1,0 +1,165 @@
+.killer-home{
+    background-image: linear-gradient(to top, #000000,#000000c9), url(../../../../../assets/dados/Jogos/KillerInstic/Killer-Instinct-fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .personagem{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+        .personagem-selecionado{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            strong{
+                text-transform: uppercase;
+                font-size: 30px;
+                color: #97a6d0;
+                font-family: var(--font-login-secundaria);
+            }
+            img{
+                width: 300px;
+                height: 280px;
+            }
+        }
+        .sobre-personagem{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            p{
+                font-size: 1em;
+            }
+            button{
+                width: 25%;
+                padding: 10px 30px;
+                border: 1px solid white;
+                background-color: transparent;
+                color: white;
+                cursor: pointer;
+                border-radius: 10px;
+               
+                font-size: 1em;
+                transition: 0.3s;
+                &:hover{
+                    background-color: var(--cor-quinaria);
+                    color: #000000;
+                    font-weight: 600;
+                    border: 1px solid var(--cor-quinaria);
+                    box-shadow: 0 0 3px var(--cor-quinaria), 0 0 6px var(--cor-quinaria), 0 0 9px var(--cor-quinaria);
+                }
+            }
+        }
+    }
+    swiper-container{
+        width: 80%;
+        display: flex;
+        margin-bottom: 5%;
+        swiper-slide{
+            cursor: pointer;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+.macetes-conteiner{
+    background-color: #000000;
+    width: 0%;
+    left: -100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: 0.5s ease-in;
+    &.macetesaberto{
+        width: 100%;
+        left: 0;
+    }
+    .maceites-area{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        .card-macete{
+            display: flex;
+            flex-direction: column;
+            background-image: linear-gradient(to left, #38383898, #0d394198);
+            width: 390px;
+            border-radius: 16px;
+            padding: 20px 30px;
+            border: 1px solid var(--cor-quinaria);
+            h3{
+                color: var(--cor-quinaria);
+                margin-bottom: 16px;
+                font-size: 1.6em;
+                border-bottom: 1px solid var(--cor-quinaria);
+            }
+            .ceite{
+                display: flex;
+                gap: 4px;
+    
+                strong{
+                    font-size: 0.9em;
+    
+                }
+                p{
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .killer-home{
+        background-position: center;
+        .personagem{
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            gap: 20px;
+            .personagem-selecionado{
+                img{
+                    width: 250px;
+                    height: 230px;
+                }
+            }
+            .sobre-personagem{
+            
+                button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .macetes-conteiner{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-position: bottom;
+        .maceites-area{
+            width: 90%;
+            .card-macete{
+                width: 100%;
+            }
+        }
+    }
+}

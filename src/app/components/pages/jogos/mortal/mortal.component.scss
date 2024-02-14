@@ -1,0 +1,110 @@
+.menu-mk{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../../../assets/dados/Jogos/MortalKonbatUltimate/fundomk3.JPG);
+    background-size: contain;
+    gap: 10px;
+    font-family: var(--font-login-secundaria);
+    button{
+        text-transform: uppercase;
+        color: white;
+        font-size: 1.6em;
+        text-decoration: none;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        border: none;
+        background-color: transparent;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover{
+            color: yellow;
+            background-image: url(../../../../../assets/dados/Jogos/MortalKonbatUltimate/logomk.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 70px;
+        }
+    }
+}
+.animacao-text {
+    animation: texto 0.5s forwards;
+}
+
+.animacao-aparecer {
+    animation: aparecer 0.5s forwards;
+}
+.dicas-jogo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(../../../../../assets/dados/Jogos/MortalKonbatUltimate/fundomk3.JPG);
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .conteiner{
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+        .ceite{
+            width: 420px;
+            height: 380px;
+            background-color: rgba(255,255,255,0.13);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(2, 2, 2, 0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 30px 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            strong{
+                color: black;
+                font-size: 1.2em;
+            }
+        }
+    }
+    button{
+            background-color: rgba(255,255,255,0.13);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            border: none;
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: 600;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(202, 4, 4, 0.432);
+                color: white;
+            }
+    }
+}
+
+
+
+@keyframes aparecer {
+    from {
+        opacity: 0.5;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes texto{
+    from {
+        opacity: 0.5;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,339 @@
+.home-conteiner{
+    background-image: linear-gradient(to top, #000000c2,#00000093), url(../../../../assets/home/fundo-deck.png);
+    background-size: contain;
+   
+    .user-conteiner{
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        
+        .saudacao{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-top: 10%;
+            h2{
+                font-size: 55px;
+                text-transform: uppercase;
+                font-weight: 900;
+                font-family: var(--font-login-primaria);
+            }
+            h1{
+                font-size: 65px;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: var(--font-login-secundaria);
+                color: var(--cor-quaternaria);
+                //text-shadow: 0 0 3px var(--cor-quaternaria), 0 0 6px var(--cor-quaternaria), 0 0 9px var(--cor-quaternaria);
+            }
+            p{
+                font-size: 0.9em;
+                margin-top: 5%;
+                
+            }
+        }
+        .perfil-user{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--cor-ternaria);
+            padding: 15px;
+            width: 50%;
+            height: 35%;
+            margin-top: 10%;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 3px var(--cor-ternaria), 0 0 6px var(--cor-ternaria), 0 0 9px var(--cor-ternaria);
+
+            .info-user{
+                display: flex;
+                img{
+                    width: 100px;
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px var(--cor-ternaria), 0 0 15px var(--cor-ternaria), 0 0 20px var(--cor-ternaria);
+
+                }
+                .dados{
+                    margin-left: 3%;
+                    h3{
+                        font-size: 1.6em;
+                        text-transform: uppercase;
+                        letter-spacing: 1.5px;
+                    }
+                    p{
+                        font-weight: 900;
+                        color: #929292;
+                    }
+                }
+            }
+            .ranqueamento{
+                gap: 90px;
+                padding: 15px;
+                margin-top: 20px;
+                .info{
+                    h2{
+                        text-transform: uppercase;
+                        color: #929292;
+                        font-size: 1em;
+                    }
+                    
+                }
+            }
+        }
+        .ranqueamento{
+            display: flex;
+        }
+        .card{
+         display: flex;
+         flex-wrap: wrap;
+         gap: 25px;
+         .card-ultimos-jogos{
+             display: flex;
+             position: relative;
+             width: 150px;
+             height: 190px;
+             backdrop-filter: blur(30px);
+             cursor: pointer;
+         
+             img{
+                 width: 150px;
+                 height: 150px;
+                 border-radius: 5px;
+                 
+             }
+             h2{
+                 font-size: 0.9em;
+                 position: absolute;
+                 width: 90%;
+                 margin-left: 3%;
+                 bottom: 0;
+             }
+         }
+        }
+    }
+    .jogos-favoritos{
+        width: 100%;
+        background-image: linear-gradient(to bottom, #000000, var(--cor-primaria));
+        display: flex;
+        .secao-jogos{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            gap: 20px;
+            .jogos{
+                display: flex;
+                align-items: center;
+                padding: 10px 15px;
+                gap: 30px;
+                border: 1px solid #929292;
+                border-radius: 50px;
+                backdrop-filter: blur(10px);
+                
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+                .desc-jogo{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    strong{
+                        font-size: 1em;
+                    }
+                    span{
+                        font-size: 0.8em;
+                        color: #929292;
+                    }
+                    a{
+                        color: var(--cor-quinaria);
+                        text-decoration: none;
+                        
+                    }
+                    a:hover{
+                        color: var(--cor-quaternaria);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .descricao{
+            margin-top: 10%;
+            width: 30%;
+            margin-left: 10%;
+            h2{
+                font-size: 2em;
+                color: var(--cor-quinaria);
+            }
+        }
+    }
+    .macetes-favoritos{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-around;
+        background-image: linear-gradient(to top, #000000c2,#00000093), url(../../../../assets/home/joystick.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        .text-maceite{
+            display: flex;
+            width: 30%;
+            margin-top: 5%;
+            
+            flex-direction: column;
+            h2{
+                font-size: 1.8em;
+                color: var(--cor-quinaria);
+                font-weight: 700;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 0.9em;
+            }
+        }
+        .secao-macete{
+            width: 50%;
+            height: 85%;
+            margin-top: 5%;
+            border: 1px solid #929292;
+            border-radius: 5px;
+            background-color: transparent;
+            backdrop-filter: blur(30px);
+            .macete{
+                display: flex;
+                align-items: center;
+                margin-left: 5%;
+                gap: 20px;
+                padding: 10px;
+                img{
+                    border-radius: 5px;
+                    width: 80px;
+                    height: 80px;
+                }
+                a{
+                    text-decoration: none;
+                    border: 1px solid var(--cor-quaternaria);
+                    padding: 10px 20px;
+                    color: var(--cor-quaternaria);
+                    border-radius: 5px;
+                    transition: 0.3s ease-in-out;
+                    
+                }
+                a:hover{
+                    color: var(--cor-quinaria);
+                    border: 1px solid var(--cor-quinaria);
+                    box-shadow: 0 0 10px var(--cor-quinaria), 0 0 15px var(--cor-quinaria), 0 0 20px var(--cor-quinaria);
+
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .home-conteiner{
+        background-repeat: no-repeat;
+        background-color: var(--cor-primaria);
+        background-image: linear-gradient(to top, #000000c2,#00000093), url(../../../../assets/home/fundomobile.png);
+
+        .user-conteiner{
+            display: flex;
+            width: 90%;
+            height: 100%;
+            .saudacao{
+                width: 100%;
+                margin-top: 15%;
+                h2{
+                    font-size: 18px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .perfil-user{
+                width: 100%;
+                height: 30%;
+                margin-bottom: 10%;
+                .info-user{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .dados{
+                        h3{
+                            font-size: 1.2em;
+                        }
+                    }
+                   
+                }
+                .ranqueamento{
+                    flex-wrap: wrap;
+                    gap: 50px;
+                }
+                .card{
+                    width: 100%;
+                    margin-top: 25px;
+                   
+                    .card-ultimos-jogos{
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        .jogos-favoritos{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            .secao-jogos{
+                width: 90%;
+                gap: 10px;
+                .jogos{
+                    border-radius: 10px;
+                    gap: 10px;
+                    img{
+                        border-radius: 10%;
+                    }
+                    .desc-jogo{
+                        span{
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+            .descricao{
+                width: 90%;
+            }
+        }
+        .macetes-favoritos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            .text-maceite{
+                width: 90%;
+                margin-left: 5%;
+            }
+            .secao-macete{
+                width: 90%;
+                height: 75%;
+                .macete{
+                    gap: 10px;
+                   img{
+                    width: 60px;
+                    height: 80px;
+                   }
+                }
+            }
+        }
+    }
+}
