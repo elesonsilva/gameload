@@ -366,13 +366,13 @@
                     "nome":"rain",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/rain.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/rain.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/rain.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/rain.png"
                 },
                 {
                     "nome":"riptile",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/riptile.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/riptile.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/riptile.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/repitile.gif"
                 },
                 {
                     "nome":"striker",
@@ -392,7 +392,7 @@
                     "nome":"nithwolf",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/nithwolf.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/nithwilf.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/nithwolf.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/nigwolf.gif"
 
                 },
                 {
@@ -441,7 +441,7 @@
                     "nome":"subziro",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/subziro.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/subziro.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subziro.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subziro.png"
 
                 },
                 {
@@ -455,7 +455,7 @@
                     "nome":"secktor",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/secktor.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/secktor.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/secktor.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sector.gif"
 
                 },
                 {
@@ -469,21 +469,21 @@
                     "nome":"ermac",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/ermac.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/ermac.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/ermac.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/ermac.png"
 
                 },
                 {
                     "nome":"scorpion",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/scorpion.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/scorpion.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/scorpion.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/scorpion.png"
 
                 },
                 {
                     "nome":"cyrax",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/cyrax.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/cyrax.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cyrax.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cirax.gif"
 
                 },
                 {
@@ -504,7 +504,7 @@
                     "nome":"esmok",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/esmok.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/esmok.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/esmok.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/esmoc.gif"
 
                 },
                 {
@@ -518,7 +518,7 @@
                     "nome":"shansung",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/shansung.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/shansung.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/shansung.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/shantsug.gif"
 
                 }
             ]
