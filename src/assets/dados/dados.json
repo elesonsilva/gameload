@@ -366,47 +366,192 @@
                     "nome":"rain",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/rain.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/rain.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/rain.png"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/rain.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"→,→,↓,Y (perto)* (não tem para a versão de SNES)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"↓,↓,←,→,X (distância de um chute)* (não tem para a versão de SNES)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,Y,L,A,X,L,A,X,L,Y,B "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" →,↓,→, A "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"↓,→,→,→,B* (não tem para a versão de SNES)"},
+                        {"nomedofatalite":"Babality", "comandos":"→, ←,←, Y "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B,Y (5 hits)"},
+                        {"nomecombo":"Perna", "comandos":"X,X,A,X,←+X, aplique um gancho (↓,Y) (7 hits) "}
+                    ]
                 },
                 {
                     "nome":"riptile",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/riptile.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/riptile.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/repitile.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/repitile.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Ácido", "comandos":"→,→,Y"},
+                        {"nomedogolpe":"Bola rápida de ácido", "comandos":"→,→,Y+B "},
+                        {"nomedogolpe":"Bola lenta de ácido", "comandos":"←,←,Y+B"},
+                        {"nomedogolpe":"Deslize", "comandos":"←+B+A "},
+                        {"nomedogolpe":"Camuflagem ", "comandos":"↑,↓,X (Antes aperte L pra ficar fácil)"},
+                        {"nomedogolpe":"Empurrão", "comandos":"←,→,A "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"←,→,↓,L (média distância)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"→,→,↑,↑,X (distância de uma rasteira) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,L,X,X,L,Y,B,A,A,L,B "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"L,R,L,L "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"↓,→,→,←,X (perto) "},
+                        {"nomedofatalite":"Babality", "comandos":" →,→,←,↓,A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão", "comandos":"Y,Y,↓+B, complete com uma deslize (5 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X (4 hits)"},
+                        {"nomecombo":"Mão e Perna", "comandos":" Y,Y,X,←+X (5 hits) "}
+                    ]
                 },
                 {
                     "nome":"striker",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/striker.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/striker.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/striker.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/striker.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Armas", "comandos":"←,→,Y"},
+                        {"nomedogolpe":"Granada alta", "comandos":" ↓,←,Y"},
+                        {"nomedogolpe":"Granada baixa", "comandos":"↓,←,B "},
+                        {"nomedogolpe":"Bastão", "comandos":"→,←,B"},
+                        {"nomedogolpe":"Ataque a Bastão", "comandos":"→,→,X "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":" ↓,→,↓,→,L (perto) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"→,→,→,A (Longe) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,X,A,Y,B,A,X,Y,A,A"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"→,↑,↑, X "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"B,R,R,B "},
+                        {"nomedofatalite":"Babality", "comandos":"↓,→,→,←,Y "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"A,Y,Y,B (5 hits)"},
+                        {"nomecombo":"Mão e Perna", "comandos":"X,Y,Y, ↓+B, dê uma voadora e (→,→,X) (7 hits) "},
+                        {"nomecombo":"Perna", "comandos":"A,X,←+X (4 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B (4 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"jax",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/jax.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/jax.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/jax.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/jax.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de fogo", "comandos":" ←,→,Y"},
+                        {"nomedogolpe":"Dupla bola de fogo", "comandos":" →,→,←,←,Y"},
+                        {"nomedogolpe":"Agarrada e socadas", "comandos":" →,→,B (na pegada, aperte B repetidamente) "},
+                        {"nomedogolpe":"Quebra-costelas", "comandos":"No ar, L "},
+                        {"nomedogolpe":"Batidas violentas", "comandos":"Na pegada do inimigo, aperte Y repetidamente "},
+                        {"nomedogolpe":"Soco no chão", "comandos":"Segure A por 3 Segundos"},
+                        {"nomedogolpe":"Super soco", "comandos":"→,→,X"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"Segure L, aperte ↑,↓,→,↑ e solte L (perto)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"R,L,R,R,A (longe)"},
+                        {"nomedofatalite":"Brutality", "comandos":" Y,Y,Y,L,B,Y,Y,Y,L,B,Y "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"↓,→,↓,B (perto)"},
+                        {"nomedofatalite":"Friend Ship", "comandos":" A,R,R,A "},
+                        {"nomedofatalite":"Babality", "comandos":"↓,↓,↓,A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"X,X, ↓+Y, Y,L,B,←+Y (8 hits)"},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X (4 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,L,B,←+Y (6 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"nithwolf",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/nithwolf.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/nithwilf.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/nigwolf.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/nigwolf.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Flecha", "comandos":"↓,←,B "},
+                        {"nomedogolpe":"Machado", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Empurrão", "comandos":" →,→,A"},
+                        {"nomedogolpe":"Bloqueio de magias", "comandos":"←,←,←,X"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↑,↑,←,→,L (perto) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"←,←,↓,Y (média distância)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,Y,X,A,A,L,L,B,B,Y,X  "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"R,R,L"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,R,R,↓ (longe)"},
+                        {"nomedofatalite":"Babality", "comandos":"→,←,→,←,B"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,B,←+X (5 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":" X,Y,Y,B, (↓, →,Y) dê um chute (6 hits)"},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X ( 4 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"jade",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/jade.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/jade.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/jade.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/jade.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bumerangue alto", "comandos":"←,→,Y  "},
+                        {"nomedogolpe":"Bumerangue reto", "comandos":" ←,→,B "},
+                        {"nomedogolpe":"Bumerangue", "comandos":" ←,→,A"},
+                        {"nomedogolpe":"Bumerangue retornável", "comandos":"←,←,→,B "},
+                        {"nomedogolpe":"Bloqueio de golpes", "comandos":"←,→,X"},
+                        {"nomedogolpe":"Chute verde", "comandos":"↓,→,A"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↑,↑,↓,→,Y (perto)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"R,R,R,L,R (perto) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,A,Y,B,X,X,A,L,L,L,Y,X "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" ←,→,↓,R "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"→,↓,←,←,X"},
+                        {"nomedofatalite":"Babality", "comandos":" ↓,↓,→,↓,X"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y, ↓+B ,A,X,X,A,←+X (8 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,A,X (5 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y, ↓+B, ↓+Y (5 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"noobsaibot",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/noobsaibot.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/noobsaibot.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/noobsaibot.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/noobsaibot.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de fumaça", "comandos":"↓,→,B  "},
+                        {"nomedogolpe":"Teleporte", "comandos":"↓,↑ "},
+                        {"nomedogolpe":"Sombra", "comandos":" →,→,Y"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"←,←,→,→,A (distância de um chute)* (não tem para a versão de SNES)  "},
+                        {"nomedofatalite":"Fatality2", "comandos":"↓,↓,↑,R (perto)* (não tem para a versão de SNES) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,A,B,L,A,X,Y,B,L,A,X  "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" ↓,→,L"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"→,→,←,Y* (não tem para a versão de SNES)"},
+                        {"nomedofatalite":"Babality", "comandos":"→,→,→,B "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B,↓,→,X, aplique uma voadora (6 hits)"},
+                        {"nomecombo":"Perna", "comandos":"A,A,A,A (5 hits)"}
+                    ]
 
                 },
                 {
@@ -420,14 +565,58 @@
                     "nome":"cano",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/cano.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/cano.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cano.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cano.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Arremesso de lâmina", "comandos":"↓,←,Y"},
+                        {"nomedogolpe":"Corte de lâmina", "comandos":"↓,→,Y"},
+                        {"nomedogolpe":"Bola de canhão", "comandos":" segure A por 3 segundos"},
+                        {"nomedogolpe":"Bola de canhão diagonal", "comandos":"→,↓,→,X "},
+                        {"nomedogolpe":"Balançada", "comandos":" Perto do inimigo, aperte ↓,→,B "},
+                        {"nomedogolpe":"Pegada", "comandos":"Com o inimigo no ar, aperte L"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"Segure B, aperte →,↓,↓,→ e solte B (perto)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"B,L,L,X (média distância)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,L,B,Y,L,X,A,L,X,A"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"↑,↑,←,A (perto) "},
+                        {"nomedofatalite":"Friend Ship", "comandos":" A,R,R,X "},
+                        {"nomedofatalite":"Babality", "comandos":"→,→,↓,↓,A "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" Y,Y,X,A,←+X (6 hits)"},
+                        {"nomecombo":"Perna", "comandos":"X,X,A,←+X (5 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,↓+B,↓+Y( Voadora + ↓,→,Y, no final da tela) (7 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,←+B (deixe segurado A por 3 segundos, Voadora e solte A)"}
+                    ]
 
                 },
                 {
                     "nome":"milena",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/milena.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/milena.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/milena.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/milena.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Arremesso de adagas", "comandos":"Segure Y por 2 segundos (pode ser feito no ar)"},
+                        {"nomedogolpe":"Teleporte de ataque", "comandos":" →,→,A "},
+                        {"nomedogolpe":"Rolada no chão", "comandos":" ←,←,↓,X "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":" ←,←,→,→,A (longe) "},
+                        {"nomedofatalite":"Fatality2", "comandos":" ↓,→,↓,→,B (perto)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,B,Y,L,X,A,X,L,Y,B "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" ↓,↓,↓,B "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"↓,←,→,Y"},
+                        {"nomedofatalite":"Babality", "comandos":"↓,↓,→,→,Y"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,X,X,↓,→,A (6 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":" Y,Y,X,X,↑+A,↑+X (7 hits)  "},
+                        {"nomecombo":"Perna", "comandos":"X,X,↑+A,↑+X ( 5 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,↓,→,↑,A (4 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,↑+B,↓+B (5 hits)  "}
+                    ]
 
                 },
                 {
@@ -448,70 +637,272 @@
                     "nome":"kunglao",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kunglao.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/kunglao.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kunglao.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kunglao.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Teleporte", "comandos":"↓,↑ "},
+                        {"nomedogolpe":"Vôo de ataque", "comandos":"No ar, ↓+X"},
+                        {"nomedogolpe":"Giro", "comandos":"→,↓,→,R (continue pressionando R rapidamente) "},
+                        {"nomedogolpe":"Arremesso de Chapéu", "comandos":"←,→B "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"R,L,R,L,↓ (Qualquer lugar)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"→,→,←,↓,Y (Perto)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,A,X,L,Y,B,A,X,L,Y "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"↓,↓,→,→,A"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,B,R,A "},
+                        {"nomedofatalite":"Babality", "comandos":"↓,→,→,Y "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" Y,B,Y,B,A,A,←+X (8 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":"  Y,A,←+X (4 hits) "},
+                        {"nomecombo":"Perna", "comandos":" Y,A,←+X (4 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"secktor",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/secktor.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/secktor.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sector.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sector.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Míssil", "comandos":"→,→,B"},
+                        {"nomedogolpe":"Míssil rastreado", "comandos":"→,↓,←,Y"},
+                        {"nomedogolpe":"Teleporte", "comandos":"→,→,A"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"B,R,R,L (Distancia de uma rasteira)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"→,→,→,←,L (Média distância) "},
+                        {"nomedofatalite":"Brutality", "comandos":" Y,Y,L,L,X,X,A,A,B,B,Y "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"R,R,R,↓"},
+                        {"nomedofatalite":"Friend Ship", "comandos":" R,R,R,R,R,↓ "},
+                        {"nomedofatalite":"Babality", "comandos":" ←,↓,↓,↓,X"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,X,X,←+X (6 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X (3 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y, ↓+B, Voadora + (→,→,A)e um chute (7 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"kitana",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kitana.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/kitana.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kitana.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kitana.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Sonda de Leque", "comandos":"←,←,←,Y "},
+                        {"nomedogolpe":"Arremesso de Leque", "comandos":"→,→,Y+B "},
+                        {"nomedogolpe":"Super soco no alto", "comandos":"↓,←,Y "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"R,R,L,L,A (perto) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"←,↓,→,→,X (perto) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,Y,L,X,L,A,L,Y,L,Y,L "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"→,↓,↓,A (perto) "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"↓,←,→,→,B  "},
+                        {"nomedofatalite":"Babality", "comandos":"→,→,↓,→,X "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Perna", "comandos":"X,X,A,←+X (5 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,→+B,←+Y (5 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"ermac",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/ermac.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/ermac.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/ermac.png"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/ermac.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de energia", "comandos":"↓,←,B "},
+                        {"nomedogolpe":"Teleporte", "comandos":"↓,←,Y (pode ser feito no ar)"},
+                        {"nomedogolpe":"Telecinesia", "comandos":" ←,↓,←,X"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"R,L,R,R,X (perto, funciona apenas quando ativado o modo fatality com um botão) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"↓,↑,↓,↓,↓,L (distante)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,Y,B,L,X,A,L,Y,B,A,Y"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"R,R,R,R,A"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"→,→,→,Y* (Não funciona na versão do SNES)"},
+                        {"nomedofatalite":"Babality", "comandos":"↓,↓,←,←,Y (Não funciona na versão do SNES)"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" Y,Y,← + B,X,A (6 hits)"},
+                        {"nomecombo":"Perna", "comandos":"X,X,A,←+X (5 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,←+B (aperte 2 vezes ↓,←+Y+B) (5 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"scorpion",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/scorpion.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/scorpion.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/scorpion.png"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/scorpion.png",
+                    "golpes":[
+                        {"nomedogolpe":"Cordinha", "comandos":" ←,←,B "},
+                        {"nomedogolpe":"Teleporte", "comandos":"↓,←,Y (pode ser feito no ar) "},
+                        {"nomedogolpe":"Agarrada no alto", "comandos":"Com o inimigo no ar, aperte L"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↓,↓,↑,X (média distância)"},
+                        {"nomedofatalite":"Fatality2", "comandos":"→,→,↓,↑,R (Perto)  "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,Y,L,X,X,A,X,Y,Y,B,Y"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"→,↑,↑,B"},
+                        {"nomedofatalite":"Friend Ship", "comandos":" ←,→,→,←,A "},
+                        {"nomedofatalite":"Babality", "comandos":"  ↓,←,←,→,Y"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão", "comandos":"X,X,A,A (5 hits)"},
+                        {"nomecombo":"Perna", "comandos":" Voadora + (←,←+X (5 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":" Voadora + (←,←+X ( 6 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"cyrax",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/cyrax.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/cyrax.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cirax.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/cirax.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Granada rápida:", "comandos":"Segure A, aperte →,→,X "},
+                        {"nomedogolpe":"Granada lenta", "comandos":"Segure A, aperte ←,←,X "},
+                        {"nomedogolpe":"Rede de energia", "comandos":"←,←,A "},
+                        {"nomedogolpe":"Teleporte", "comandos":" →, ↓,L (pode ser feito no ar)"},
+                        {"nomedogolpe":"Teleporte (avanço) no alto", "comandos":" No ar, ↓, →,L, B"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↓,↓,↑,↓,Y (qualquer lugar) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"↓,↓,→,↑+R (perto) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,X,Y,X,X,Y,X,Y,X,A,B "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"R,L,R"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,R,R,↑"},
+                        {"nomedofatalite":"Babality", "comandos":"→,←,←,Y "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,X,Y,X,←+X (7 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X (4 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B (4 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"kabal",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/kabal.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/kabal.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kabal.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/kabal.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Rodopio", "comandos":"←,→,A"},
+                        {"nomedogolpe":"Bola de fogo", "comandos":" ←,←,Y"},
+                        {"nomedogolpe":"Chamada de espinhos", "comandos":" ←,←,←,R"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":" ↓,↓,←,→,L (média distância) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"R,L,L,L,X (perto) "},
+                        {"nomedofatalite":"Brutality", "comandos":" Y,L,A,A,A,X,X,B,B,Y,B"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" L,L,X (perto)"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,A,R,R,↑"},
+                        {"nomedofatalite":"Babality", "comandos":" R,R,A "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,X,←+X (5 hits)"},
+                        {"nomecombo":"Mão e Perna", "comandos":"A,A,Y,Y, ↓+Y, voadora + bola de fogo (8 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":"A,A,Y,Y, ↓+B, ↓,→,Y ( 7 hits) "},
+                        {"nomecombo":"Perna", "comandos":"A,A,←+X (4 hits) "},
+                        {"nomecombo":"Perna", "comandos":"A,A,X,←+X (5 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y, ↓+Y, voadora + bola de fogo (6 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y, ↓+B, ↓,→,Y (5 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"sindel",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/sindel.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/sindel.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sindel.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sindel.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de fogo", "comandos":"  →,→,B "},
+                        {"nomedogolpe":"Bola de fogo alta", "comandos":" No ar, ↓,→,A"},
+                        {"nomedogolpe":"Flutuar", "comandos":"←,←,→,X (para descer aperte L) "},
+                        {"nomedogolpe":"Grito", "comandos":"→,→,→,Y"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"R,R,L,R,L (distancia de uma rasteira)"},
+                        {"nomedofatalite":"Fatality2", "comandos":" R,L,L,R+L (perto) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,L,A,L,A,X,L,X,A,X,A,L,B "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"↓, ↓, ↓,B"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,R,R,R,↑ "},
+                        {"nomedofatalite":"Babality", "comandos":"R,R,R,↑"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" X,Y,Y,B,←+X (6 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":" X,Y,Y,↓+Y, (acrescente uma voadora e complete com uma bola de fogo alta) (7 hits) "},
+                        {"nomecombo":"Perna", "comandos":" X,X,←+X (4 hits)"}
+                    ]
 
                 },
                 {
                     "nome":"esmok",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/esmok.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/esmok.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/esmoc.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/esmoc.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Tridente", "comandos":"←,←,B "},
+                        {"nomedogolpe":"Teleporte de ataque", "comandos":"→,→,A (pode ser feito no ar)"},
+                        {"nomedogolpe":"Camuflagem", "comandos":"↑,↑,R"},
+                        {"nomedogolpe":"Pegada", "comandos":"Com o inimigo no ar, aperte L"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↑,↑,→,↓ ( Vá para o canto da Tela) "},
+                        {"nomedofatalite":"Fatality2", "comandos":" Segure L+R, aperte ↓,↓,→,↑ e solte (distância de uma rasteira)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,A,A,X,L,L,B,B,Y,Y,L,L  "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"→,→,↓,A "},
+                        {"nomedofatalite":"Friend Ship", "comandos":" R,R,R,X (Tela toda) "},
+                        {"nomedofatalite":"Babality", "comandos":"↓,↓,←,←,X "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" Voadora + (→,→,A) + (←,←,B) Y,Y,A,X,B (9 hits)  "},
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,X (4 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,A,X,←+X (6 hits)  "},
+                        {"nomecombo":"Perna", "comandos":" X,X (3 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B (4 hits) "}
+                    ]
 
                 },
                 {
                     "nome":"liukang",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/liukang.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/liukang.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/liukang.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/liukang.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de fogo", "comandos":"→,→,Y (pode ser feito no ar)"},
+                        {"nomedogolpe":"Voadora", "comandos":" →,→, X"},
+                        {"nomedogolpe":"Bola de fogo baixa", "comandos":"→,→, B"},
+                        {"nomedogolpe":"Ataque de bicicleta:", "comandos":" Segure A por 3 segundos"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"→, →,↓,↓,A"},
+                        {"nomedofatalite":"Fatality2", "comandos":"↑,↓,↑,↑,L+R "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,Y,L,A,X,A,X,B,B,Y"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"R,L,L,A (perto) "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"R,R,R, segure R e aperte↓ rápido"},
+                        {"nomedofatalite":"Babality", "comandos":"↓,↓,↓, X "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,←+B, dê uma voadora, solte uma bola de fogo e aplique →,→,X. (7 hits) "},
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,L,A,A,X,A (8 hits) "},
+                        {"nomecombo":"Perna", "comandos":"A,A,X,A (5 hits)"},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,←+B (4 hits) "}
+                    ]
 
                 },
                 {
