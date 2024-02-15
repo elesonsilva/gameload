@@ -36,7 +36,12 @@
 <section class="select-personagem" *ngIf="maceites">
     <div class="personagens-ultimate">
         <div class="personagens" *ngFor="let personagem of personagens">
-            <img [src]="personagem.portrait" alt="">
+            <img [src]="personagem.portrait" alt=""
+            (mouseenter)="mostraPersonagens[personagem.animatePersonagem] = true"
+            (mouseleave)="mostraPersonagens[personagem.animatePersonagem] = false">
+            <div class="imagem-hover" *ngIf="mostraPersonagens[personagem.animatePersonagem]">
+                <img [src]="personagem.animatePersonagem" alt="">
+            </div>
         </div>
     </div>
 </section>

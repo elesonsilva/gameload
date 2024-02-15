@@ -13,8 +13,8 @@ export class MortalComponent {
   dicas:boolean = false;
   mostrarMenu: boolean = true;
   maceites: boolean = false;
-  
   personagens: Personagem[]=[];
+  mostraPersonagens:{[key: string]: boolean}={};
 
   constructor(private httpClient:HttpClient){}
   
