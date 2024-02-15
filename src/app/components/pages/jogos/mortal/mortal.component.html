@@ -38,10 +38,35 @@
         <div class="personagens" *ngFor="let personagem of personagens">
             <img [src]="personagem.portrait" alt=""
             (mouseenter)="mostraPersonagens[personagem.animatePersonagem] = true"
-            (mouseleave)="mostraPersonagens[personagem.animatePersonagem] = false">
+            (mouseleave)="mostraPersonagens[personagem.animatePersonagem] = false"
+            (click)="escolhePersonagem(personagem);mostraMaceitesPerson= true; maceites=false">
             <div class="imagem-hover" *ngIf="mostraPersonagens[personagem.animatePersonagem]">
                 <img [src]="personagem.animatePersonagem" alt="">
             </div>
         </div>
+    </div>
+</section>
+<section class="maceites" *ngIf="personagemSelecionado">
+    <img [src]="personagemSelecionado.fundo" alt="">
+    <div class="macaites-area">
+        <div class="card-macete">
+            <h3>Golpes</h3>
+            <div class="ceite">
+                <strong></strong>: <p></p>
+            </div>
+        </div>
+        <div class="card-macete">
+            <h3>Fatalites</h3>
+            <div class="ceite">
+                <strong></strong>: <p></p>
+            </div>
+        </div>
+        <div class="card-macete">
+            <h3>Combos</h3>
+            <div class="ceite">
+                <strong></strong>: <p></p>
+            </div>
+        </div>
+        <button (click)="mostraMaceitesPerson= false; maceites=true">Voltar</button>
     </div>
 </section>

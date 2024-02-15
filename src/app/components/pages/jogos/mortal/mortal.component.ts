@@ -13,15 +13,23 @@ export class MortalComponent {
   dicas:boolean = false;
   mostrarMenu: boolean = true;
   maceites: boolean = false;
+  mostraMaceitesPerson: boolean = false
   personagens: Personagem[]=[];
+  personagemSelecionado: Personagem | null = null;
   mostraPersonagens:{[key: string]: boolean}={};
-
+  
   constructor(private httpClient:HttpClient){}
   
   ngOnInit(): void{
     this.httpClient.get<{ Jogos: Jogos[]}>('assets/dados/dados.json').subscribe(data=>{
       this.personagens = data.Jogos[1].personagens
     });
+  }
+  
+  
+  escolhePersonagem(personagem: Personagem) {
+    this.personagemSelecionado = personagem;
+   
   }
 
 }
