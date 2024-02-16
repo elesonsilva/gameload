@@ -51,20 +51,20 @@
     <div class="macaites-area">
         <div class="card-macete">
             <h3>Golpes</h3>
-            <div class="ceite">
-                <strong></strong>: <p></p>
+            <div *ngFor="let golpe of personagemSelecionado?.golpes" class="ceite">
+                <strong>{{golpe.nomedogolpe}}</strong>:<p>{{golpe.comandos}}</p>
             </div>
         </div>
         <div class="card-macete">
             <h3>Fatalites</h3>
-            <div class="ceite">
-                <strong></strong>: <p></p>
+            <div *ngFor="let fatal of personagemSelecionado?.fatalites" class="ceite">
+                <strong>{{fatal.nomedofatalite}}</strong>:<p>{{fatal.comandos}}</p>
             </div>
         </div>
         <div class="card-macete">
             <h3>Combos</h3>
-            <div class="ceite">
-                <strong></strong>: <p></p>
+            <div *ngFor="let combo of personagemSelecionado?.combos" class="ceite">
+                <strong>{{combo.nomecombo}}</strong>:<p>{{combo.comandos}}</p>
             </div>
         </div>
         <button (click)="mostraMaceitesPerson= false; maceites=true">Voltar</button>

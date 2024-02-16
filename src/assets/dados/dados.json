@@ -558,7 +558,28 @@
                     "nome":"sonia",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/sonia.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/sonia.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sonia.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sonia.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Arremesso de auréolas", "comandos":"↓,→,B"},
+                        {"nomedogolpe":"Agarrada com as pernas", "comandos":" ↓+B+L"},
+                        {"nomedogolpe":"Super soco no alto", "comandos":" →,←,Y"},
+                        {"nomedogolpe":"Bicicleta alta", "comandos":"←,←,↓,X"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"Segure L+R, aperte ↑,↑,←,↓ (longe) "},
+                        {"nomedofatalite":"Fatality2", "comandos":"←,→,↓,↓,R (qualquer lugar)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,A,L,Y,A,L,Y,B,L,X,A "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" →,→,↓,Y "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"←,→,←,↓,R "},
+                        {"nomedofatalite":"Babality", "comandos":" ↓,↓,→,A"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Perna", "comandos":" X,X,←+X (4 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,↑+B, (Voadora + ↓+B+L ) (6 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B,←+Y (5 hits)"}
+                    ]
+
 
                 },
                 {
@@ -623,14 +644,54 @@
                     "nome":"subzero",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/subzero.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/subzero.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subzero.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subzero.gif",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de Gelo", "comandos":"↓,→,B"},
+                        {"nomedogolpe":"Gelo alto", "comandos":" ↓,→,Y "},
+                        {"nomedogolpe":"Gelo alto longe", "comandos":" ↓,→,←,Y "},
+                        {"nomedogolpe":"Gelo alto perto", "comandos":"↓,←,→,Y"},
+                        {"nomedogolpe":"Clone de gelo", "comandos":"↓,←,B (pode ser feito no ar)"},
+                        {"nomedogolpe":"Deslize", "comandos":"←+B+A "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":" L,L,R,L,R (perto) "},
+                        {"nomedofatalite":"Fatality2", "comandos":" ←,←,↓,←,R (média distância) "},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,A,X,B,Y,X,X,Y,Y,B,Y"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" ←,↓,→,→,X "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"A,R,R,↑"},
+                        {"nomedofatalite":"Babality", "comandos":"↓,←,←,X "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,B,A,X,←+X, aplique o deslize (8 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X (4 hits)  "}
+                    ]
 
                 },
                 {
                     "nome":"subziro",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/subziro.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/subziro.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subziro.png"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/subziro.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de Gelo", "comandos":"↓,→,B"},
+                        {"nomedogolpe":"Deslize", "comandos":"←+B+A"},
+                        {"nomedogolpe":"Gelo no chão", "comandos":"↓, ←,A "}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":"↓,↓,↓,→,Y (perto) "},
+                        {"nomedofatalite":"Fatality2", "comandos":" ↓,Frente,Frente,→,Y (perto)* (não tem na versão do SNES)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,B,Y,L,A,A,X,X,B,Y,B"},
+                        {"nomedofatalite":"Stage Fatality", "comandos":" →,↓,→,→,Y (perto) "},
+                        {"nomedofatalite":"Friend Ship", "comandos":"↓, ←,←,→,A* (não tem na versão do SNES)"},
+                        {"nomedofatalite":"Babality", "comandos":"↓,→,→,X (não tem na versão do SNES)"}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,A,←+X,→+A (6 hits) "},
+                        {"nomecombo":"Perna", "comandos":" A,←+X,→+A (4 hits) "},
+                        {"nomecombo":"Mão", "comandos":"Y,Y,B,↓+ B, ↓+Y( Voadora + deslize) (7 hits)  "}
+                    ]
 
                 },
                 {
@@ -909,7 +970,27 @@
                     "nome":"shansung",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/shansung.jpg",
                     "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/shansung.png",
-                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/shantsug.gif"
+                    "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/shantsug.gif",
+                    "golpes":[
+                        {"nomedogolpe":"1 Bola de fogo", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"2 Bola de fogo", "comandos":"←,←,→,Y "},
+                        {"nomedogolpe":"3 Bola de fogo", "comandos":" ←,←,→,→,Y"},
+                        {"nomedogolpe":"3 Bola de erupção", "comandos":"→,←,←,A"}
+                    ],
+                    "fatalites":[
+                        {"nomedofatalite":"Fatality1", "comandos":" Segure B, aperte ↓,→,→,↓ e solte B (perto)  "},
+                        {"nomedofatalite":"Fatality2", "comandos":"Segure B, aperte R,L,R,R e solte B (perto)"},
+                        {"nomedofatalite":"Brutality", "comandos":"Y,L,L,L,A,Y,B,B,L,L,L "},
+                        {"nomedofatalite":"Stage Fatality", "comandos":"↑,↑,←,B"},
+                        {"nomedofatalite":"Friend Ship", "comandos":"A,R,R,↓"},
+                        {"nomedofatalite":"Babality", "comandos":"R,R,R,A "}
+                        
+                    ],
+                    "combos":[
+                        {"nomecombo":"Mão e Perna", "comandos":" A,Y,Y,B,←+X (6 hits)"},
+                        {"nomecombo":"Mão e Perna", "comandos":"Y,Y,B,←+X (5 hits) "},
+                        {"nomecombo":"Perna", "comandos":"X,X,←+X (4 hits)"}
+                    ]
 
                 }
             ]
