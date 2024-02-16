@@ -18,6 +18,7 @@ export class KillerComponent {
   personagemSelecionado: Personagem | null = null;
 
   mostrarMacetes = false;
+  person : boolean = true;
 
   slidesPorView: number = 8;
   tamanhotela!:number;
@@ -54,6 +55,10 @@ export class KillerComponent {
   verMacetes() {
     this.mostrarMacetes = !this.mostrarMacetes;
   }
-  
+  voltarSelecao(){
+    this.mostrarMacetes = false;
+    this.person = true;
+    this.personagemSelecionado = null;
+  }
 }
   

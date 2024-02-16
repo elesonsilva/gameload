@@ -1,4 +1,4 @@
-<section class="killer-home">
+<section class="killer-home" *ngIf="person">
     <div class="personagem" *ngIf="personagemSelecionado">
         <div class="personagem-selecionado">
             <img [src]="personagemSelecionado.animatePersonagem" alt="">
@@ -6,7 +6,7 @@
         </div>
         <div class="sobre-personagem">
             <p>{{personagemSelecionado.historia}}</p>
-            <button (click)="verMacetes()">Ver macetes</button>
+            <button (click)="verMacetes(); person=false">Ver macetes</button>
         </div>
     </div>
 
@@ -38,4 +38,5 @@
                 </div>
             </div>
         </div> 
+        <button (click)="voltarSelecao()">Voltar</button>
 </section>
