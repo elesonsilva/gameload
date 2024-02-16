@@ -365,7 +365,7 @@
                 {
                     "nome":"rain",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/rain.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/rain.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/105.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/rain.png",
                     "golpes":[
                         {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
@@ -389,7 +389,7 @@
                 {
                     "nome":"riptile",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/riptile.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/riptile.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/repitile.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/repitile.gif",
                     "golpes":[
                         {"nomedogolpe":"Ácido", "comandos":"→,→,Y"},
@@ -417,7 +417,7 @@
                 {
                     "nome":"striker",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/striker.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/striker.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/strike.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/striker.gif",
                     "golpes":[
                         {"nomedogolpe":"Armas", "comandos":"←,→,Y"},
@@ -476,7 +476,7 @@
                 {
                     "nome":"nithwolf",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/nithwolf.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/nithwilf.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/nightwolf.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/nigwolf.gif",
                     "golpes":[
                         {"nomedogolpe":"Flecha", "comandos":"↓,←,B "},
@@ -724,7 +724,7 @@
                 {
                     "nome":"secktor",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/secktor.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/secktor.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/sector.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/sector.gif",
                     "golpes":[
                         {"nomedogolpe":"Míssil", "comandos":"→,→,B"},
@@ -912,7 +912,7 @@
                 {
                     "nome":"esmok",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/esmok.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/esmok.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/esmolk.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/esmoc.gif",
                     "golpes":[
                         {"nomedogolpe":"Tridente", "comandos":"←,←,B "},
@@ -969,7 +969,7 @@
                 {
                     "nome":"shansung",
                     "portrait":"assets/dados/Jogos/MortalKonbatUltimate/Portrait/shansung.jpg",
-                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/shansung.png",
+                    "fundo":"assets/dados/Jogos/MortalKonbatUltimate/fundoPerson/shantsug.png",
                     "animatePersonagem":"assets/dados/Jogos/MortalKonbatUltimate/animate/shantsug.gif",
                     "golpes":[
                         {"nomedogolpe":"1 Bola de fogo", "comandos":"←,←,Y"},
