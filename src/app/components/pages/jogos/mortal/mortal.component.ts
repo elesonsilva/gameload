@@ -13,7 +13,7 @@ export class MortalComponent {
   dicas:boolean = false;
   mostrarMenu: boolean = true;
   maceites: boolean = false;
-  mostraMaceitesPerson: boolean = false
+  mostraMaceitesPerson: boolean = false;
   personagens: Personagem[]=[];
   personagemSelecionado: Personagem | null = null;
   mostraPersonagens:{[key: string]: boolean}={};
@@ -29,7 +29,11 @@ export class MortalComponent {
   
   escolhePersonagem(personagem: Personagem) {
     this.personagemSelecionado = personagem;
-   
   }
-
+ 
+  voltarParaSelecao() {
+    this.mostraMaceitesPerson = false;
+    this.maceites = true;
+    this.personagemSelecionado = null; 
+}
 }

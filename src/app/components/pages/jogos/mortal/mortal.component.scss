@@ -138,10 +138,64 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: var(--font-login-secundaria);
     img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
         width: 400px;
         height: 390px;
+    }
+    .macaites-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 5%;
+        .card-macete{
+            width: 300px;
+            height: 350px;
+            background-color: rgba(255,255,255,0.13);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(2, 2, 2, 0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 30px 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            h3{
+                font-size: 1.4em;
+                font-weight: 900;
+                color: black;
+
+            }
+            .ceite{
+                display: flex;
+                gap: 5px;
+            }
+        }
+        button{
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 5%;
+            background-color: rgba(255,255,255,0.13);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            border: none;
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: 600;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(202, 4, 4, 0.432);
+                color: white;
+            }
+        }
     }
 }
 
