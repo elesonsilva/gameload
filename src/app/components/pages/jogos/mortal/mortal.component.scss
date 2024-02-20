@@ -95,7 +95,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
         .personagens-ultimate{
             margin-top: 50px;
             display: flex;
@@ -134,7 +134,7 @@
 }
 .maceites{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: radial-gradient(#5a5a5a,#131212);
     background-size: contain;
     background-repeat: no-repeat;
