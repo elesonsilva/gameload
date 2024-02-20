@@ -227,6 +227,27 @@
             margin-bottom: 20px;
         }
     }
+    .imagem-hover{
+        display: none;
+    }
+    .maceites{
+        display: flex;
+        align-items: center;
+        
+        
+        img{
+           display: none;
+        }
+        .macaites-area{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            button{
+                position: relative;
+            }
+        }
+    }
 }
 
 
