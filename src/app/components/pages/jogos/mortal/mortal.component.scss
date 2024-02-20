@@ -11,6 +11,7 @@
     font-family: var(--font-login-secundaria);
     img{
         width: 35%;
+        animation: aparecer 0.5s forwards;
     }
     button{
         text-transform: uppercase;
@@ -41,21 +42,21 @@
 }
 .dicas-jogo{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     background-image: url(../../../../../assets/dados/Jogos/MortalKonbatUltimate/fundomk3.JPG);
     background-size: contain;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
     gap: 20px;
     .conteiner{
         display: flex;
-        margin-top: 20px;
+        margin-top: 40px;
         gap: 20px;
         .ceite{
             width: 420px;
-            height: 380px;
             background-color: rgba(255,255,255,0.13);
             border-radius: 10px;
             backdrop-filter: blur(5px);
@@ -195,6 +196,35 @@
                 background-color: rgba(202, 4, 4, 0.432);
                 color: white;
             }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .menu-mk{
+        img{
+            width: 350px;
+            padding: 20px;
+        }
+        button{
+            font-size: 1.2em;
+        }
+    }
+    .dicas-jogo{
+        display: flex;
+        
+        .conteiner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            .ceite{
+                width: 80%;
+                
+            }
+        }
+        button{
+            margin-bottom: 20px;
         }
     }
 }
