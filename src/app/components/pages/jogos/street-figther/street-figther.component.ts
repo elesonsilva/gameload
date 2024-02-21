@@ -11,7 +11,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrl: './street-figther.component.scss'
 })
 export class StreetFigtherComponent {
-personagens : Personagem[]=[];
+  personagens : Personagem[]=[];
+  mostrarPersonagem:{[key:string]:boolean}={}
 
   constructor (private httpclient:HttpClient){}
 

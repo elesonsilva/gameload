@@ -5,10 +5,18 @@
         
     </div>
     <div class="selec-personagem">
+        <div class="menu-person">
         <div class="grad-person" *ngFor="let person of personagens">
-            <img [src]="person.portrait" alt="">
-            <p>{{person.nome}}</p>
+            <img [src]="person.portrait" alt=""
+            (mouseenter)="mostrarPersonagem[person.fundo] =  true"
+            (mouseleave)="mostrarPersonagem[person.fundo] =  false">
+            <div class="personagem-fundo" *ngIf="mostrarPersonagem[person.fundo]">
+                <h3>{{person.nome}}</h3>
+                <img [src]="person.fundo" alt="">
+            </div>
+        </div>   
         </div>
+       
     </div>
 </section>
 
