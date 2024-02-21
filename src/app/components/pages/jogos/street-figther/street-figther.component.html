@@ -1,6 +1,9 @@
 
 <section class="conteiner-inicial">
-
+    <div class="grad-person" *ngFor="let person of personagens">
+        <img [src]="person.portrait" alt="">
+        <p>{{person.nome}}</p>
+    </div>
 </section>
 
 
