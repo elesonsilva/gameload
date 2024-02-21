@@ -1,8 +1,14 @@
 
 <section class="conteiner-inicial">
-    <div class="grad-person" *ngFor="let person of personagens">
-        <img [src]="person.portrait" alt="">
-        <p>{{person.nome}}</p>
+    <div class="mapa">
+        <h2>player select</h2>
+        
+    </div>
+    <div class="selec-personagem">
+        <div class="grad-person" *ngFor="let person of personagens">
+            <img [src]="person.portrait" alt="">
+            <p>{{person.nome}}</p>
+        </div>
     </div>
 </section>
 
