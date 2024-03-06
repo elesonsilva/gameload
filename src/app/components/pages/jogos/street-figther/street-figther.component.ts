@@ -13,12 +13,16 @@ import { HttpClient } from '@angular/common/http';
 export class StreetFigtherComponent {
   personagens : Personagem[]=[];
   mostrarPersonagem:{[key:string]:boolean}={}
-
+  personagemSelecionado: Personagem | null = null;
   constructor (private httpclient:HttpClient){}
 
    ngOnInit(): void{
     this.httpclient.get<{ Jogos: Jogos[]}>('assets/dados/dados.json').subscribe(data=>{
       this.personagens = data.Jogos[2].personagens
     });
+  }
+
+  escolhePersonagem(person: Personagem){
+    this.personagemSelecionado = person;
   }
 }

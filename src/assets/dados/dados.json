@@ -1009,62 +1009,122 @@
                 {
                     "nome":"Ryu",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/ryu.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/ryu.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/ryu.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"Honda",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/honda.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/honda.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/honda.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"blanka",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/blanka.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/blanka.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/blanka.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"guile",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/guile.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/guile.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/guile.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"balrog",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/balrog.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/balrog.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/balrog.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"vega",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/vega.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/vega.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/vega.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"kem",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/kem.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/kem.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/kem.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"chunli",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/chunli.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/chunli.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/chunli.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"zangif",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/zangif.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/zangif.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/zangif.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"dhalsin",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/dhalsin.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/dhalsin.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/dhalsin.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"sagat",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/sagat.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/sagat.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/sagat.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 },
                 {
                     "nome":"bison",
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/bison.png",
-                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/bison.png"
+                    "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/bison.png",
+                    "golpes":[
+                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
+                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
+                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                    ]
                 }
             ]
         },

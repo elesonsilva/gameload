@@ -9,7 +9,8 @@
             <div class="grad-person" *ngFor="let person of personagens">
                 <img [src]="person.portrait" alt=""
                 (mouseenter)="mostrarPersonagem[person.fundo] =  true"
-                (mouseleave)="mostrarPersonagem[person.fundo] =  false">
+                (mouseleave)="mostrarPersonagem[person.fundo] =  false"
+                (click)="escolhePersonagem(person)">
                 <div class="personagem-fundo" *ngIf="mostrarPersonagem[person.fundo]">
                     <h3>{{person.nome}}</h3>
                     <img [src]="person.fundo" alt="">
@@ -17,6 +18,17 @@
             </div>   
         </div>
     
+    </div>
+</section>
+<section class="personagen-selecionado" *ngIf="personagemSelecionado">
+    <img [src]="personagemSelecionado.fundo" alt="">
+    <div class="area-maceite">
+        <div class="card-macete">
+            <h3>Golpes {{personagemSelecionado.nome}}</h3>
+            <div class="ceite" *ngFor="let golpe of personagemSelecionado.golpes">
+                <strong>{{golpe.nomedogolpe}}</strong>:<p>{{golpe.comandos}}</p>
+            </div>
+        </div>
     </div>
 </section>
 
