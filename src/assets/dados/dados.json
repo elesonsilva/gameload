@@ -1011,9 +1011,9 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/ryu.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/ryu.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Hadouken", "comandos":"baixo até frente + soco"},
+                        {"nomedogolpe":"Shoryuken (dragon punch)", "comandos":"frente, baixo, frente + soco"},
+                        {"nomedogolpe":"Hurricane Kick", "comandos":"baixo, diagonal inferior trás, trás + chute"}
                     ]
                 },
                 {
@@ -1021,9 +1021,9 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/honda.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/honda.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Hyakuretsu Harite", "comandos":"Aperte várias vezes algum botão de soco"},
+                        {"nomedogolpe":"Super Zutsuki", "comandos":"Segure trás depois frente + soco;"},
+                        {"nomedogolpe":"Super Hyakkan Otoshi", "comandos":"segure baixo, depois cima + chute"}
                     ]
                 },
                 {
@@ -1031,9 +1031,9 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/blanka.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/blanka.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Electric Thunder", "comandos":"aperte soco varias e repetidas vezes"},
+                        {"nomedogolpe":"Rolling Attack", "comandos":"segure trás e solte apertando pra frente + soco"},
+                        {"nomedogolpe":"Vertical Rolling", "comandos":"segure baixo e solte pra cima + chute"}
                     ]
                 },
                 {
@@ -1041,9 +1041,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/guile.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/guile.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Knee Bazooka", "comandos":"trás, frente + chute médio"},
+                        {"nomedogolpe":"Reverse Spin Kick", "comandos":"trás, frente + chute forte"},
+                        {"nomedogolpe":"Sonic Boom", "comandos":"segure trás, solte pra frente + soco"},
+                        {"nomedogolpe":"Somersault Kick", "comandos":"segure baixo, solte pra cima + chute"}
                     ]
                 },
                 {
@@ -1051,9 +1052,9 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/balrog.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/balrog.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Dash Straight", "comandos":"Segure pra trás, solte pra frente + soco "},
+                        {"nomedogolpe":"Dash Upper", "comandos":"Segure pra trás, solte pra frente + chute"},
+                        {"nomedogolpe":"Turn Punch", "comandos":"Segure os 3 de soco, ou os 3 de chute por alguns instantes e solte"}
                     ]
                 },
                 {
@@ -1061,9 +1062,11 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/vega.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/vega.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Sankaku Tobi", "comandos":"pule contra o canto da tela, depois aperte para o sentido contrário "},
+                        {"nomedogolpe":"Back Slash", "comandos":"duas vezes pra trás"},
+                        {"nomedogolpe":"Rolling Crystal Flash", "comandos":"segure pra trás, solte pra frente + soco"},
+                        {"nomedogolpe":"Flying Barcelona Attack", "comandos":"segure pra baixo, solte pra cima + chute e depois soco"},
+                        {"nomedogolpe":"Izuna Drop", "comandos":"segure pra baixo, solte pra cima + chute e depois (perto do oponente) aperte pra trás, ou frente + soco"}
                     ]
                 },
                 {
@@ -1071,9 +1074,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/kem.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/kem.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Hadouken", "comandos":"baixo até frente + soco"},
+                        {"nomedogolpe":"Shoryuken (dragon punch)", "comandos":"frente, baixo, frente + soco"},
+                        {"nomedogolpe":"Hurricane Kick", "comandos":"baixo, diagonal inferior trás, trás + chute"},
+                        {"nomedogolpe":"Air Hurricane Kick", "comandos":"(no ar) baixo, trás + chute"}
                     ]
                 },
                 {
@@ -1081,9 +1085,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/chunli.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/chunli.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Sankaku Tobi", "comandos":"pule contra o canto da parede e aperte na direção oposta"},
+                        {"nomedogolpe":"Yousou Kyaku", "comandos":"no ar, baixo + chute médio"},
+                        {"nomedogolpe":"Spinning Bird Kick", "comandos":"baixo + cima + chute"},
+                        {"nomedogolpe":"Hyakuretsu Kyaku", "comandos":"aperte chute várias vezes"}
                     ]
                 },
                 {
@@ -1091,9 +1096,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/zangif.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/zangif.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Flying Body Attack", "comandos":"no ar, baixo + soco forte"},
+                        {"nomedogolpe":"Double Knee Drop", "comandos":" no ar, baixo + chute fraco ou médio"},
+                        {"nomedogolpe":"Double Lariat", "comandos":"os três botões de soco"},
+                        {"nomedogolpe":"Screw Piledriver", "comandos":"360 no direcional + soco"}
                     ]
                 },
                 {
@@ -1101,9 +1107,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/dhalsin.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/dhalsin.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Drill Zutsuki", "comandos":"no ar, baixo + soco forte "},
+                        {"nomedogolpe":"Drill Kick", "comandos":"no ar, baixo + chute forte"},
+                        {"nomedogolpe":"Yoga Fire", "comandos":" baixo, frente + soco"},
+                        {"nomedogolpe":"Yoga Flame", "comandos":"trás, baixo, frente + soco"}
                     ]
                 },
                 {
@@ -1111,9 +1118,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/sagat.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/sagat.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Tiger Shot", "comandos":"baixo, frente + soco"},
+                        {"nomedogolpe":"Ground Tiger Shot", "comandos":" baixo, frente + chute"},
+                        {"nomedogolpe":"Tiger Uppercut", "comandos":"frente, baixo, frente + soco"},
+                        {"nomedogolpe":"Tiger Knee Crush", "comandos":"baixo, frente, direcional superior frente + chute"}
                     ]
                 },
                 {
@@ -1121,9 +1129,10 @@
                     "portrait":"assets/dados/Jogos/StreetFighterIITurbo/Portrait/bison.png",
                     "fundo":"assets/dados/Jogos/StreetFighterIITurbo/fundoPerson/bison.png",
                     "golpes":[
-                        {"nomedogolpe":"Bola de paralisia", "comandos":"↓,→,Y "},
-                        {"nomedogolpe":"Trovão", "comandos":"←,←,Y"},
-                        {"nomedogolpe":"Super chute", "comandos":"←+X "}
+                        {"nomedogolpe":"Psycho Crusher", "comandos":"segure trás, solte pra frente + soco"},
+                        {"nomedogolpe":"Double Knee Press", "comandos":" segure trás, solte pra frente +chute"},
+                        {"nomedogolpe":"Head Press", "comandos":"segure baixo, solte pra cima + chute "},
+                        {"nomedogolpe":"Somersault Skull Diver", "comandos":"após realizar o Head Press, aperte soco quando chegar perto do oponente "}
                     ]
                 }
             ]
