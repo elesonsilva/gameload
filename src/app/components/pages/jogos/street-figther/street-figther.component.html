@@ -1,5 +1,5 @@
 
-<section class="conteiner-inicial">
+<section class="conteiner-inicial" *ngIf="mostrarMenu">
     <div class="mapa">
         <h2>player select</h2>
         <img src="../../../../../assets/dados/Jogos/StreetFighterIITurbo/mapa.png" alt="">
@@ -10,7 +10,7 @@
                 <img [src]="person.portrait" alt=""
                 (mouseenter)="mostrarPersonagem[person.fundo] =  true"
                 (mouseleave)="mostrarPersonagem[person.fundo] =  false"
-                (click)="escolhePersonagem(person)">
+                (click)="escolhePersonagem(person); mostrarMenu=false; maceites=true">
                 <div class="personagem-fundo" *ngIf="mostrarPersonagem[person.fundo]">
                     <h3>{{person.nome}}</h3>
                     <img [src]="person.fundo" alt="">
@@ -30,6 +30,7 @@
             </div>
         </div>
     </div>
+    <button (click)="voltarMenu()">Voltar</button>
 </section>
 
 

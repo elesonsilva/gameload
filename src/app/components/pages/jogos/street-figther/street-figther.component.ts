@@ -14,6 +14,9 @@ export class StreetFigtherComponent {
   personagens : Personagem[]=[];
   mostrarPersonagem:{[key:string]:boolean}={}
   personagemSelecionado: Personagem | null = null;
+  mostrarMenu: boolean = true;
+  maceites: boolean = false;
+
   constructor (private httpclient:HttpClient){}
 
    ngOnInit(): void{
@@ -24,5 +27,10 @@ export class StreetFigtherComponent {
 
   escolhePersonagem(person: Personagem){
     this.personagemSelecionado = person;
+  }
+  voltarMenu(){
+    this.mostrarMenu = true;
+    this.maceites = false;
+    this.personagemSelecionado = null;
   }
 }
