@@ -1158,39 +1158,7 @@
             "avaliacao":"5 estrelas",
             "categoria":"aventura",
             "page":"dkcountry"
-        },
-        {
-            "Nome_do_jogo":"Donkey Kong Country 2: Diddy's Kong Quest",
-            "imagem":"assets/dados/Jogos/DonkeyKongCountry2/donkei2.jpg",
-            "fundo":"assets/dados/Jogos/DonkeyKongCountry2/fundodock.jpg",
-            "descricao":"Essa aventura deixa Donkey Kong de lado e traz Dixie Kong como parceira de Diddy  — e por um pouco quase não teve Cranky Kong como terceiro personagem controlável — para uma aventura com o intuito de resgatar Donkey Kong das garras de Kapitão K. Rool. Para isso, os macacos contam com suas próprias habilidades e a ajuda de alguns animais, entre eles a aranha Squitter e o papagaio Quawks.",
-            "arquivo_rom":"ainda não tem",
-            "macetes":"falta colocar",
-            "avaliacao":"5 estrelas",
-            "categoria":"aventura",
-            "page":"dk2"
-        },
-        {
-            "Nome_do_jogo":"Super Mario Kart",
-            "imagem":"assets/dados/Jogos/SuperMarioKart/Super_Mario_Kart_front.jpg",
-            "fundo":"assets/dados/Jogos/SuperMarioKart/fundo.png",
-            "descricao":"Super Mario Kart foi o primeiro de sua série de títulos do spin-off focado em corrida. No game os jogadores controlavam os personagens da série Super Mario, mas em uma disputa de corrida de karts. O título ficou famoso não só pela diversão, mas também pela forma de jogo em multiplayer, que permitia até quatro participantes simultâneos caso o jogador tivesse um adaptador para ligar os controles.",
-            "arquivo_rom":"ainda não tem",
-            "macetes":"falta colocar",
-            "avaliacao":"5 estrelas",
-            "categoria":"corrida",
-            "page":"mariokart"
-        },
-        {
-            "Nome_do_jogo":"Contra III: The Alien Wars",
-            "imagem":"assets/dados/Jogos/ContraTheAlienWars/contra.png",
-            "fundo":"assets/dados/Jogos/ContraTheAlienWars/fundo.jpg",
-            "descricao":"Em termos de dificuldade, Contra III: The Alien Wars ficou conhecido como um dos mais hardcore da Konami. Muitos jogadores passaram horas ou dias inteiros para zerar o jogo, e muitos não conseguiram isso. Os Bosses eram gigantes, e os cenários em movimento tornavam todas as batalhas ainda mais complicadas.",
-            "arquivo_rom":"ainda não tem",
-            "macetes":"falta colocar",
-            "avaliacao":"5 estrelas",
-            "categoria":"tiro",
-            "page":"contra"
         }
+        
     ]
 }
