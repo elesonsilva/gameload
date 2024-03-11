@@ -1,7 +1,6 @@
 import { Component, EventEmitter } from '@angular/core';
 import { RouterLink, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -10,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-
+  
   mostrar: boolean = true;
   constructor(private router: Router){}
 
